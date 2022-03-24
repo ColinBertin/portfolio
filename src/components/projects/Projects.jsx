@@ -1,10 +1,19 @@
 import React from 'react';
 import './Projects.scss';
+import Card from './card/Card';
 
 const Projects = (props) => {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className='projects'>
+      <h2>Web projects</h2>
+      <div className="card-container">
+        < Card />
+        < Card />
+        < Card />
+        < Card />
+        < Card />
+        < Card />
+      </div>
     </div>
   );
 };

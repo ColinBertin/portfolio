@@ -1,0 +1,15 @@
+.projects {
+  width: 90vw;
+  border: 1px solid red;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+h2 {
+  text-align: center;
+}
