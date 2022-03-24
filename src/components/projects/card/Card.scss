@@ -1,14 +1,20 @@
 .card {
-  width: 400px;
-  height: 500px;
+  flex: 0 1 500px;
+  // max-width: 600px;
+  max-height: 350px;
   border: 1px solid green;
 }
 
-.preview {
+.card-preview {
   height: 80%;
+
 }
 
-.info {
+img {
+  width: 100%;
+}
+
+.card-info {
   height: 20%;
   padding: 0 8px;
   display: flex;
@@ -17,12 +23,12 @@
   border: 1px solid blue;
 }
 
-.info ul {
+.card-info ul {
   display: flex;
   list-style: none;
 }
 
-.language {
+.card-language {
   font-size: 24px;
   margin-left: 8px;
 }
