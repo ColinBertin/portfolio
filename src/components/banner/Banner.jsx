@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.scss';
 
-import me from '../../../public/me.jpeg';
+import me from '../../assets/me.jpeg';
 
 const Banner = (props) => {
   return (
@@ -10,7 +10,8 @@ const Banner = (props) => {
         <img src={me} alt="Me" />
       </div>
       <div className="intro">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nisi dignissimos hic laborum voluptates vero? Quo aspernatur id dolores expedita.</p>
+        <h1>Hi I am Colin!</h1>
+        <p>I am a Full-Stack web developer. I am looking to leverage my skills in Ruby on Rails and JavaScript.</p>
       </div>
     </div>
   );
