@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  margin: 0;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  background-color: #D3D3D3;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mobile-hamburger, .mobile-list {
+  display: none;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  margin-right: 16px;
+  list-style: none;
+}
+
+li {
+  margin-left: 16px;
+}
