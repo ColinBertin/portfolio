@@ -1,0 +1,19 @@
+.navbar {
+  margin: 0;
+  min-height: 50px;
+  display: flex;
+  background-color: blue;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul.navbar-menu {
+  margin: 0;
+  display: flex;
+  margin-right: 16px;
+  list-style: none;
+}
+
+li {
+  margin-left: 16px;
+}
