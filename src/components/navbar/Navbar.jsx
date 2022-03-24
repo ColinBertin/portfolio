@@ -1,24 +1,32 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Projects from '../projects/Projects';
-import About from '../about/About';
-
+import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.scss'
 
 const Navbar = (props) => {
   return (
-    <BrowserRouter>
-      <Route exact path="/" component={Projects} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/contact" component={Projects} />
-      <div className="navbar">
-        <ul className="navbar-menu">
-          <Link to="/" className="item" />
-          <Link to="/about" className="item" />
-          <Link to="/contact" className="item" />
-        </ul>
+    <div className="navbar">
+      {/* Menu */}
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+
+      {/* Hamburger */}
+      <div>
+        <FaBars className='mobile-hamburger' />
       </div>
-    </BrowserRouter>
+      {/* Mobile menu */}
+      <ul className='mobile-list'>
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </div>
   );
 };
 
