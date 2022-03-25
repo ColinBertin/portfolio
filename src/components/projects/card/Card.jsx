@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.scss';
 
-import traq from './traq.png';
+import traq from './traq1.png';
 
 const Card = () => {
   return (
@@ -16,7 +16,7 @@ const Card = () => {
           <li className='card-language'><i class="devicon-javascript-plain"></i></li>
           <li className='card-language'><i class="devicon-heroku-original-wordmark"></i></li>
           <li className='card-language'><i class="devicon-adonisjs-original"></i></li>
-          <li className='card-language'><i class="devicon-adonisjs-original"></i></li>
+          {/* <li className='card-language'><i class="devicon-adonisjs-original"></i></li> */}
         </ul>
       </div>
     </div>
