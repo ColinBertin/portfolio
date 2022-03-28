@@ -6,13 +6,15 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       {/* Menu */}
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
 
       {/* Hamburger */}
       <div>
