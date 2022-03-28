@@ -11,7 +11,7 @@ const Card = () => {
       </div>
       <div className="card-info">
         <h3>TraQ</h3>
-        <ul>
+        <ul className='card-languages'>
           <li className='card-language'><i class="devicon-rails-plain-wordmark"></i></li>
           <li className='card-language'><i class="devicon-javascript-plain"></i></li>
           <li className='card-language'><i class="devicon-heroku-original-wordmark"></i></li>
