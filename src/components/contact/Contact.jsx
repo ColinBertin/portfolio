@@ -3,9 +3,9 @@ import './Contact.scss';
 
 const Contact = (props) => {
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
+    <section className='contact'>
+      <h2>Contact</h2>
+    </section>
   );
 };
 

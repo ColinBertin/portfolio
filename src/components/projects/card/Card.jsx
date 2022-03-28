@@ -12,10 +12,10 @@ const Card = () => {
       <div className="card-info">
         <h3>TraQ</h3>
         <ul className='card-languages'>
-          <li className='card-language'><i class="devicon-rails-plain-wordmark"></i></li>
-          <li className='card-language'><i class="devicon-javascript-plain"></i></li>
-          <li className='card-language'><i class="devicon-heroku-original-wordmark"></i></li>
-          <li className='card-language'><i class="devicon-adonisjs-original"></i></li>
+          <li className='card-language'><i className="devicon-rails-plain-wordmark"></i></li>
+          <li className='card-language'><i className="devicon-javascript-plain"></i></li>
+          <li className='card-language'><i className="devicon-heroku-original-wordmark"></i></li>
+          <li className='card-language'><i className="devicon-adonisjs-original"></i></li>
           {/* <li className='card-language'><i class="devicon-adonisjs-original"></i></li> */}
         </ul>
       </div>
