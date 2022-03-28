@@ -1,12 +1,12 @@
 .banner {
   padding: 0 32px;
   margin-bottom: 16px;
-  height: 80vh;
+  height: 100vh;
   background-color: #3A3A3A;
   color: #FFF;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
   align-items: center;
 }
 

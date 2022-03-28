@@ -7,13 +7,13 @@ const Navbar = (props) => {
     <div className="navbar">
       {/* Menu */}
       <div>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
       </div>
 
       {/* Hamburger */}
