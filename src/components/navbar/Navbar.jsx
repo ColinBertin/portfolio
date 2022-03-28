@@ -6,6 +6,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       {/* Menu */}
+      <div>
       <ul>
         <li>Home</li>
         <li>About</li>
@@ -13,6 +14,7 @@ const Navbar = (props) => {
         <li>Projects</li>
         <li>Contact</li>
       </ul>
+      </div>
 
       {/* Hamburger */}
       <div>
