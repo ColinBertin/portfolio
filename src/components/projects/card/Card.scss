@@ -5,13 +5,13 @@
   max-height: 500px;
   // border: 1px solid green;
   background-color: #C9C9C9;
-  // overflow: hidden;
+  overflow: hidden;
   position: relative;
   border-radius: 5px;
 }
 
 .card-preview {
-  height: 60%;
+  height: 80%;
 }
 
 img {
@@ -20,12 +20,12 @@ img {
 }
 
 .card-info {
-  height: 40%;
+  height: 20%;
   padding: 0 24px;
-  // display: flex;
+  display: flex;
   // flex-direction: column;
-  // justify-content: space-between;
-  // align-items: center;
+  justify-content: space-between;
+  align-items: center;
   // border: 1px solid blue;
 }
 
@@ -49,13 +49,17 @@ img {
 }
 
 
-@media (min-width: 40rem) {
+@media (min-width: 540px) {
   .card {
     width: 40%;
   }
+
+  .card-info {
+    padding: 0 8px;
+  }
 }
 
-@media (min-width: 56rem) {
+@media (min-width: 720px) {
   .card {
     width: 45%;
   }
