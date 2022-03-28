@@ -3,9 +3,9 @@ import './About.scss';
 
 const About = (props) => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <section className='about'>
+      <h2>About</h2>
+    </section>
   );
 };
 

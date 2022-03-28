@@ -4,7 +4,7 @@ import Card from './card/Card';
 
 const Projects = (props) => {
   return (
-    <div className='projects'>
+    <section className='projects'>
       <h2>Web projects</h2>
       <div className="card-container">
         < Card />
@@ -14,7 +14,7 @@ const Projects = (props) => {
         < Card />
         < Card />
       </div>
-    </div>
+    </section>
   );
 };
 
