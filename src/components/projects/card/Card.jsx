@@ -1,22 +1,24 @@
 import React from 'react';
 import './Card.scss';
+import { ExternalLink } from 'react-external-link';
 
-import traq from './traq1.png';
-
-const Card = () => {
+const Card = (props) => {
+  console.log(props.url)
   return (
     <div className='card'>
       <div className="card-preview">
-        <img src={traq} alt="traq" />
+        <img src={props.img} alt="traq" />
       </div>
       <div className="card-info">
-        <h3>TraQ</h3>
+        <ExternalLink href={props.link}>
+          <h3>{props.name}</h3>
+        </ExternalLink>
         <ul className='card-languages'>
-          <li className='card-language'><i className="devicon-rails-plain-wordmark"></i></li>
-          <li className='card-language'><i className="devicon-javascript-plain"></i></li>
-          <li className='card-language'><i className="devicon-heroku-original-wordmark"></i></li>
-          <li className='card-language'><i className="devicon-adonisjs-original"></i></li>
-          {/* <li className='card-language'><i class="devicon-adonisjs-original"></i></li> */}
+          {
+            props.language.map((lng, index) => {
+              return <li key={index} className='card-language'>{lng}</li>
+            })
+          }
         </ul>
       </div>
     </div>
