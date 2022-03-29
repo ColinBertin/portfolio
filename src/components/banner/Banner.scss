@@ -1,12 +1,13 @@
 .banner {
   padding: 0 32px;
-  margin-bottom: 16px;
+  // margin-bottom: 16px;
+  // width: 100vw;
   height: 100vh;
   background-color: #3A3A3A;
   color: #FFF;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -17,14 +18,14 @@
   margin-bottom: 40px;
 }
 
-@media (min-width: 540px) {
-  .banner{
-    margin-bottom: 24px;
-  }
-}
+// @media (min-width: 540px) {
+//   .banner{
+//     margin-bottom: 24px;
+//   }
+// }
 
-@media (min-width: 720px) {
-  .banner {
-    margin-bottom: 32px;
-  }
-}
+// @media (min-width: 720px) {
+//   .banner {
+//     margin-bottom: 32px;
+//   }
+// }
