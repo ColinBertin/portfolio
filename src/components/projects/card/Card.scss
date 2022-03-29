@@ -39,6 +39,11 @@ img {
   margin-right: 0;
 }
 
+.card-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
 // .card-languages {
 //   position: absolute;
 //   right: 16px;
@@ -56,23 +61,41 @@ img {
     width: 45%;
   }
 
+  h3 {
+    font-size: 16px;
+  }
+
   .card-info {
     padding: 0 8px;
   }
-   .card-language {
-     font-size: 16px;
-   }
+
+  .card-language {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 720px) {
   .card {
     width: 40%;
   }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .card-language {
+    font-size: 32px;
+  }
+
 }
 
 @media (min-width: 965px) {
   .card {
     width: 30%;
     padding: 0;
+  }
+
+  .card-language {
+    font-size: 36px;
   }
 }
