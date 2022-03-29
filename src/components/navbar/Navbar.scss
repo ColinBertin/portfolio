@@ -50,12 +50,21 @@ li {
   margin-bottom: 36px;
 }
 
+.mobile-list-active li:hover {
+  color: #54aa9a;
+}
+
 .desktop-list {
   margin: 0;
   display: flex;
-  margin-right: 16px;
+  margin-right: 24px;
   list-style: none;
   display: none;
+  cursor: pointer;
+}
+
+.desktop-list li:hover {
+  color: #54aa9a;
 }
 
 .desktop-list li {

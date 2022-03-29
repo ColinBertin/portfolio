@@ -13,19 +13,17 @@ h2 {
   background-color: #121212;
   // border-radius: 10px;
   // margin: 16px 0;
-  padding: 32px;
+  padding: 0 20px;
 }
 
 // @media (min-width: 540px) {
 //   .projects, .about, .skills, .contact {
-//     // margin: 24px 0;
-//     // width: 85vw;
+//     padding: 0 80px;
 //   }
 // }
 
-// @media (min-width: 720px) {
-//   .projects, .about, .skills, .contact {
-//     // margin: 32px 0;
-//     // width: 75vw;
-//   }
-// }
+@media (min-width: 965px) {
+  .projects, .about, .skills, .contact {
+    padding: 0 200px;
+  }
+}
