@@ -9,23 +9,23 @@ h2 {
 }
 
 .projects, .about, .skills, .contact {
-  width: 90vw;
+  width: 100%;
   background-color: #3A3A3A;
-  border-radius: 10px;
-  margin: 16px 0;
-  padding-bottom: 32px;
+  // border-radius: 10px;
+  // margin: 16px 0;
+  padding: 32px;
 }
 
-@media (min-width: 540px) {
-  .projects, .about, .skills, .contact {
-    margin: 24px 0;
-    width: 85vw;
-  }
-}
+// @media (min-width: 540px) {
+//   .projects, .about, .skills, .contact {
+//     // margin: 24px 0;
+//     // width: 85vw;
+//   }
+// }
 
-@media (min-width: 720px) {
-  .projects, .about, .skills, .contact {
-    margin: 32px 0;
-    width: 75vw;
-  }
-}
+// @media (min-width: 720px) {
+//   .projects, .about, .skills, .contact {
+//     // margin: 32px 0;
+//     // width: 75vw;
+//   }
+// }
