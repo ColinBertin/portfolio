@@ -5,8 +5,8 @@
   height: 50px;
   width: 100vw;
   display: flex;
-  background-color: #1F1F1F;
-  color: #6ADBC6;
+  background-color: #101829;
+  // color: #fff;
   justify-content: flex-end;
   align-items: center;
 }
@@ -38,8 +38,8 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #1F1F1F;
-  color: #6ADBC6;
+  background-color: #101829;
+  // color: #FFF;
   height: 100vh;
   width: 100vw;
   top: 50px;
@@ -51,7 +51,7 @@ li {
 }
 
 .mobile-list-active li:hover {
-  color: #54aa9a;
+  color: #A43560;
 }
 
 .desktop-list {
@@ -64,7 +64,7 @@ li {
 }
 
 .desktop-list li:hover {
-  color: #54aa9a;
+  color: #A43560;
 }
 
 .desktop-list li {
