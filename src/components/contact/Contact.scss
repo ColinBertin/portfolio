@@ -1,0 +1,40 @@
+.contact {
+  // padding: 0 150px 50px 150px;
+  padding-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 15px;
+  margin: 0 auto;
+  border: 1px solid #ccd6f6;
+  font-size: 20px;
+  background-color: #101829;
+  color: #ccd6f6;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.btn:hover {
+  transition-duration: 300ms;
+  border: none;
+  background-color: #A43560;
+}
+
+@media (min-width: 720px) {
+  .contact {
+    padding: 0 150px 50px 150px;
+  }
+}
+
+@media (min-width: 965px) {
+  .contact {
+    padding: 0 250px 50px 250px;
+  }
+}
