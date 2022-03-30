@@ -7,6 +7,11 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 32px 16px;
+}
+
+input[type=text], input[type=email], textarea {
+  padding: 8px 8px;
 }
 
 .btn {
@@ -18,7 +23,6 @@ form {
   color: #ccd6f6;
   cursor: pointer;
   display: inline-flex;
-  justify-content: space-between;
 }
 
 .btn:hover {
@@ -28,13 +32,13 @@ form {
 }
 
 @media (min-width: 720px) {
-  .contact {
-    padding: 0 150px 50px 150px;
-  }
+  // form {
+  //   padding: 32px 50px 50px 50px;
+  // }
 }
 
 @media (min-width: 965px) {
-  .contact {
-    padding: 0 250px 50px 250px;
-  }
+  // form {
+  //   padding: 32px 100px 50px 100px;
+  // }
 }

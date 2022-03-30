@@ -21,8 +21,14 @@ li {
 
 .mobile-hamburger {
   font-size: x-large;
-  margin-right: 16px;
+  margin-right: 32px;
   color: #FFF;
+  cursor: pointer;
+}
+
+.mobile-hamburger:hover {
+  transition-duration: 200ms;
+  color: #A43560;
 }
 
 .mobile-list {
@@ -52,6 +58,7 @@ li {
 
 .mobile-list-active li:hover {
   color: #A43560;
+  cursor: pointer;
 }
 
 .desktop-list {

@@ -4,16 +4,12 @@ main {
   align-items: center;
 }
 
-h2 {
-  text-align: center;
-}
-
 .projects, .about, .skills, .contact {
   width: 100%;
   background-color: #101829;
   // border-radius: 10px;
   // margin: 16px 0;
-  padding: 0 20px;
+  padding: 50px 20px;
 }
 
 // @media (min-width: 540px) {
@@ -24,6 +20,6 @@ h2 {
 
 @media (min-width: 965px) {
   .projects, .about, .skills, .contact {
-    padding: 0 100px;
+    padding: 50px 100px;
   }
 }
