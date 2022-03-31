@@ -6,7 +6,7 @@ main {
 }
 
 .projects, .about, .skills, .contact {
-  max-width: 1440px;
+  width: 100%;
   padding: 50px 20px;
 }
 
@@ -14,4 +14,13 @@ main {
   .projects, .about, .skills, .contact {
     padding: 50px 100px;
   }
+}
+
+@media (min-width: 1440px) {
+  .projects, .about, .skills, .contact {
+    max-width: 60%;
+  }
+  //  .contact {
+  //    width: 70%;
+  //  }
 }
