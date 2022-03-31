@@ -1,3 +1,43 @@
+.about-p-container {
+  display: flex;
+  flex-direction: column;
+
+  .about-intro {
+    font-size: 30px;
+    color: #ccd6f6;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .about-main-text {
+    line-height: 24px;
+  }
+
+  .about-contact-link {
+    cursor: pointer;
+    border-bottom: 2px solid #A43560;
+
+    &:hover {
+        color: #A43560;
+    }
+  }
+}
+
+@media (min-width: 720px) {
+  .about-p-container {
+    flex-direction: row;
+  }
+   .about-intro {
+     margin: auto;
+   }
+
+   .about-main-text {
+     max-width: 60%;
+   }
+}
+
+
+
 .about p {
   margin: 32px 16px;
 }

@@ -1,22 +1,15 @@
 main {
   display: flex;
+  background-color: #101829;
   flex-direction: column;
   align-items: center;
+  padding: 0 100px;
 }
 
 .projects, .about, .skills, .contact {
   width: 100%;
-  background-color: #101829;
-  // border-radius: 10px;
-  // margin: 16px 0;
   padding: 50px 20px;
 }
-
-// @media (min-width: 540px) {
-//   .projects, .about, .skills, .contact {
-//     padding: 0 80px;
-//   }
-// }
 
 @media (min-width: 965px) {
   .projects, .about, .skills, .contact {

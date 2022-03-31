@@ -14,8 +14,8 @@ const Banner = () => {
       <div className="banner-intro">
         <p className='banner-pink'>Hi, my name is</p>
         <h1 className='banner-h1'>Colin Bertin</h1>
-        <h2 className='banner-h2'>I'm a Full-Stack Developer </h2>
-        <p className='banner-p-btn'>I am a Full-Stack web developer. I am looking to leverage my skills in Ruby on Rails and JavaScript.</p>
+        <h2 className='banner-h2'>I'm a Full Stack Developer. </h2>
+        <p className='banner-p-btn'>I'm a full-stack developer specializing in building great digital experiences. Currently, I'm focused in building responsive full-stack applications. </p>
         <Link className='banner-btn' to='projects' smooth={true} duration={500}>
           View Work
           < HiArrowNarrowRight className='btn-arrow' />

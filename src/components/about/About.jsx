@@ -1,13 +1,23 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './About.scss';
 
 const About = () => {
   return (
     <section className='about'>
       <h2>About</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio aliquid itaque quidem perferendis quis sunt eaque harum asperiores ex atque esse qui deserunt commodi, aliquam odit omnis nemo nostrum.
-      Ratione iure amet nostrum tempora, neque nam ipsa, dolores ut magni aliquam commodi ipsam, tenetur inventore tempore. Vitae officia, sit tempora voluptate quasi, rerum nulla enim omnis, provident voluptates dicta.
-      Reiciendis distinctio non, labore assumenda, quae maxime voluptate nobis similique mollitia nostrum tempora nesciunt perferendis animi. Corporis, corrupti exercitationem ex libero error nemo? Ipsa doloribus impedit voluptatum et excepturi odio.</p>
+      <div className="about-p-container">
+        <p className="about-intro">
+          Hi! I'm Colin, nice to meet you. Please take a look around.
+        </p>
+        <p className='about-main-text'>
+        Passionate about building software and application. I'm 34 years old from Belgium. Based in Yokohama since 2018, I have been working and developing my Web developer skills. With a background in the food industry as part of the managing team, I always have been interested in the web industry. I'm looking to collaborate and work on an exciting project! Do not hesitate to<span> </span>
+        <Link className='about-contact-link' to='contact' smooth={true} duration={500}>
+        contact me
+        </Link>
+        <span> </span>for more info!
+        </p>
+      </div>
     </section>
   );
 };
