@@ -22,11 +22,11 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to='projects' smooth={true} duration={500}>
             Projects
@@ -62,12 +62,12 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li>
+        {/* <li>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
-        </li>
+        </li> */}
         <li>
           {' '}
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
