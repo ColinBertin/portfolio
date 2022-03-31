@@ -1,10 +1,22 @@
 .banner {
+  // padding: 32px;
+  // height: 100vh;
+  background-color: #101829;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.width-limit {
   padding: 32px;
   height: 100vh;
-  background-color: #101829;
+  // border: 1px solid red;
+  // background-color: #101829;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin: 0 auto;
   align-items: center;
 }
 
@@ -72,7 +84,7 @@
 }
 
 @media (min-width: 965px) {
-  .banner {
+  .width-limit {
     flex-direction: row-reverse;
     padding: 0 100px;
   }

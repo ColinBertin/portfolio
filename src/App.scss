@@ -15,3 +15,12 @@ main {
     padding: 50px 100px;
   }
 }
+
+@media (min-width: 1440px) {
+  .projects, .about, .skills, .contact {
+    max-width: 60%;
+  }
+  //  .contact {
+  //    width: 70%;
+  //  }
+}
