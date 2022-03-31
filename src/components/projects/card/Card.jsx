@@ -8,11 +8,6 @@ const Card = (props) => {
     <div className='card'>
       <div className="card-preview">
         <img src={props.img} alt="traq" />
-      </div>
-      <div className="card-info">
-        <ExternalLink href={props.link}>
-          <h3>{props.name}</h3>
-        </ExternalLink>
         <ul className='card-languages'>
           {
             props.language.map((lng, index) => {
@@ -20,6 +15,11 @@ const Card = (props) => {
             })
           }
         </ul>
+      </div>
+      <div className="card-info">
+        <ExternalLink href={props.link}>
+          <h3>{props.name}</h3>
+        </ExternalLink>
       </div>
     </div>
   );
