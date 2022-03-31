@@ -4,6 +4,10 @@
   background-color: #1D1D1D;
   position: relative;
   border-radius: 10px;
+
+  h3 {
+    padding-left: 16px;
+  }
 }
 
 .card-preview {
@@ -34,65 +38,64 @@ img {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 16px;
   visibility: hidden;
+
+  .card-language {
+    font-size: 40px;
+    margin-left: 16px;
+  }
 }
 
-.card-language {
-  font-size: 40px;
-  margin-left: 16px;
-}
 
 .card-info {
   height: 20%;
-  display: flex;
-  align-items: center;
-}
-
-.card-info a {
-  padding-left: 16px;
-  text-decoration: none;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    cursor: pointer;
+    font-size: 32px;
+    padding-right: 16px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+    a:hover {
+      color: #A43560;
+    }
 }
 
 
 @media (min-width: 540px) {
   .card {
     width: 45%;
-  }
 
-  h3 {
-    font-size: 16px;
+    h3 {
+      font-size: 16px;
+    }
   }
 
   .card-info {
     padding: 0 8px;
-  }
 
-  // .card-language {
-  //   font-size: 20px;
-  // }
+    a {
+      font-size: 30px;
+    }
+  }
 }
 
 @media (min-width: 720px) {
   .card {
     width: 40%;
-  }
 
-  h3 {
-    font-size: 22px;
+    h3 {
+      font-size: 22px;
+    }
   }
-
-  // .card-language {
-  //   font-size: 25px;
-  // }
 
 }
-
-// @media (min-width: 965px) {
-
-//   .card-language {
-//     font-size: 36px;
-//   }
-// }

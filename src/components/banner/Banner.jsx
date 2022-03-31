@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 import me from '../../assets/me.jpeg';
 
-const Banner = (props) => {
+const Banner = () => {
   return (
     <div className='banner'>
       <div className="banner-photo">
@@ -20,8 +20,6 @@ const Banner = (props) => {
           View Work
           < HiArrowNarrowRight className='btn-arrow' />
         </Link>
-        {/* <button className='banner-btn'>
-        </button> */}
       </div>
     </div>
   );
