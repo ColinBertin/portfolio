@@ -1,6 +1,9 @@
 import React from 'react';
 import './Card.scss';
 import { ExternalLink } from 'react-external-link';
+import { BsGithub } from "react-icons/bs";
+import { GoLinkExternal } from "react-icons/go";
+
 
 const Card = (props) => {
   console.log(props.url)
@@ -8,11 +11,6 @@ const Card = (props) => {
     <div className='card'>
       <div className="card-preview">
         <img src={props.img} alt="traq" />
-      </div>
-      <div className="card-info">
-        <ExternalLink href={props.link}>
-          <h3>{props.name}</h3>
-        </ExternalLink>
         <ul className='card-languages'>
           {
             props.language.map((lng, index) => {
@@ -20,6 +18,17 @@ const Card = (props) => {
             })
           }
         </ul>
+      </div>
+      <div className="card-info">
+          <h3>{props.name}</h3>
+          <div className="link">
+            <ExternalLink href={props.link}>
+              < GoLinkExternal />
+            </ExternalLink>
+            <ExternalLink href={props.git}>
+              < BsGithub />
+            </ExternalLink>
+          </div>
       </div>
     </div>
   );
