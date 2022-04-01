@@ -8,8 +8,13 @@
   display: flex;
   background-color: #101829;
   // color: #fff;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
 }
 
 li {

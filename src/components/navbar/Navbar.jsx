@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Logo from '../../assets/images/cb.png';
 import './Navbar.scss';
 import { Link } from 'react-scroll';
 
@@ -10,6 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
+      <img className='logo' src={Logo} alt="logo" />
       {/* Menu */}
       <ul className='desktop-list'>
         <li>
