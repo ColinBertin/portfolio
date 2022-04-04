@@ -6,9 +6,9 @@ const Contact = (props) => {
     <section className='contact'>
       <h2>Contact</h2>
       <form method="POST" action="https://getform.io/f/79f566d4-9401-42ec-9f41-92c02f90ad5e">
-        <input type="text" name="name" placeholder='Name' />
-        <input type="email" name="email" placeholder='Email' />
-        <textarea name="message" id="" rows="10" placeholder='Message'></textarea>
+        <input type="text" name="name" placeholder="Name" required/>
+        <input type="email" name="email" placeholder="Email" required/>
+        <textarea name="message" id="" rows="10" placeholder="Message" minlength="10" required></textarea>
         <button className='btn'>Let's Collaborate</button>
       </form>
     </section>
