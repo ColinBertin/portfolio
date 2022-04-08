@@ -6,7 +6,6 @@ import { GoLinkExternal } from "react-icons/go";
 
 
 const Card = (props) => {
-  console.log(props.url)
   return (
     <div className='card'>
       <div className="card-preview">
