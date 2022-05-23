@@ -5,6 +5,7 @@ import traq from '../../assets/images/traq.png';
 import hpt from '../../assets/images/happy-tour.png';
 import profile from '../../assets/images/profile.png';
 import wlist from '../../assets/images/watch-list.png';
+import drump from '../../assets/images/drump.png';
 
 
 
@@ -41,6 +42,14 @@ const projects = [
     language: [<i className="devicon-html5-plain-wordmark" style={{color: "#DD4C30"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>],
     url: "https://colinbertin.github.io/profile/",
     git: "https://github.com/ColinBertin/profile"
+  },
+  {
+    name: "Drump JS",
+    description: "Playing around with event listener and playing sound",
+    img: drump,
+    language: [<i className="devicon-html5-plain-wordmark" style={{color: "#DD4C30"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>],
+    url: "https://colinbertin.github.io/JS-drum-kit/",
+    git: "https://github.com/ColinBertin/JS-drum-kit"
   }
 ]
 
