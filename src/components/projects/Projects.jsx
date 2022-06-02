@@ -8,7 +8,7 @@ import wlist from '../../assets/images/watch-list.png';
 import drump from '../../assets/images/drump.png';
 
 
-
+// Add the projects to a JSON file and import it good style
 
 const projects = [
   {
