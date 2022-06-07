@@ -6,6 +6,7 @@ import hpt from '../../assets/images/happy-tour.png';
 import profile from '../../assets/images/profile.png';
 import wlist from '../../assets/images/watch-list.png';
 import drump from '../../assets/images/drump.png';
+import country from '../../assets/images/countries.png';
 
 
 // Add the projects to a JSON file and import it good style
@@ -50,6 +51,14 @@ const projects = [
     language: [<i className="devicon-html5-plain-wordmark" style={{color: "#DD4C30"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>,<i className="devicon-javascript-plain" style={{color: "#EFD82F"}}></i>],
     url: "https://colinbertin.github.io/JS-drum-kit/",
     git: "https://github.com/ColinBertin/JS-drum-kit"
+  },
+  {
+    name: "Countries infos",
+    description: "Get information about country",
+    img: country,
+    language: [<i className="devicon-react-plain" style={{color: "#EFD82F"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>],
+    url: "https://countries-infos-flags.herokuapp.com/",
+    git: "https://github.com/ColinBertin/countries-flags-infos"
   }
 ]
 
