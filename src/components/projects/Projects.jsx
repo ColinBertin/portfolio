@@ -56,7 +56,7 @@ const projects = [
     name: "Countries infos",
     description: "Get information about country",
     img: country,
-    language: [<i className="devicon-react-plain" style={{color: "#EFD82F"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>],
+    language: [<i className="devicon-react-plain" style={{color: "#63DBFB"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>],
     url: "https://countries-infos-flags.herokuapp.com/",
     git: "https://github.com/ColinBertin/countries-flags-infos"
   }
