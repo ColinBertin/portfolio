@@ -45,7 +45,7 @@ const projects = [
     git: "https://github.com/ColinBertin/profile"
   },
   {
-    name: "Drump JS",
+    name: "Drum JS",
     description: "Playing around with event listener and playing sound",
     img: drump,
     language: [<i className="devicon-html5-plain-wordmark" style={{color: "#DD4C30"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>,<i className="devicon-javascript-plain" style={{color: "#EFD82F"}}></i>],
