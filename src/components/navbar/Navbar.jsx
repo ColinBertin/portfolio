@@ -3,14 +3,15 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../../assets/images/cb.png';
 import './Navbar.scss';
 import { Link } from 'react-scroll';
+import { ThemeButton } from './ThemeButton/ThemeButton';
 
-const Navbar = () => {
+const Navbar = ({toggleTheme, theme}) => {
 
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="navbar">
+    <div className={`navbar ${theme}`}>
       <img className='logo' src={Logo} alt="logo" />
       {/* Menu */}
       <ul className='desktop-list'>
@@ -39,6 +40,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        < ThemeButton />
       </ul>
 
       {/* Hamburger */}
@@ -82,6 +84,7 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+      < ThemeButton />
       </ul>
     </div>
   );
