@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.scss';
 
-const Contact = (props) => {
+const Contact = ({theme}) => {
   return (
     <section className='contact'>
       <h2>Contact</h2>

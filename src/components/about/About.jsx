@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './About.scss';
 
-const About = () => {
+const About = ({theme}) => {
   return (
     <section className='about'>
       <h2>About</h2>

@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 import me from '../../assets/me.jpeg';
 
-const Banner = () => {
+const Banner = ({theme}) => {
   return (
     <div className='banner'>
       <div className="width-limit">

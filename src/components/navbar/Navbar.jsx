@@ -4,7 +4,7 @@ import Logo from '../../assets/images/cb.png';
 import './Navbar.scss';
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
+const Navbar = ({toggleTheme, theme}) => {
 
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
