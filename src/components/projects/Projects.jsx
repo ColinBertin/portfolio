@@ -1,12 +1,12 @@
 import React from 'react';
 import './Projects.scss';
 import Card from './card/Card';
-import traq from '../../assets/images/traq.png';
-import hpt from '../../assets/images/happy-tour.png';
-import profile from '../../assets/images/profile.png';
-import wlist from '../../assets/images/watch-list.png';
-import drump from '../../assets/images/drump.png';
-import country from '../../assets/images/countries.png';
+import traq from '../../assets/images/traq.webp';
+import hpt from '../../assets/images/happy-tour.webp';
+import profile from '../../assets/images/profile.webp';
+import wlist from '../../assets/images/watch-list.webp';
+import drump from '../../assets/images/drum.webp';
+import country from '../../assets/images/countries.webp';
 
 
 // Add the projects to a JSON file and import it good style
