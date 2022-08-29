@@ -10,7 +10,7 @@ const Banner = ({theme}) => {
     <div className='banner'>
       <div className="width-limit">
         <div className="banner-photo">
-          <img src={me} alt="Me" />
+          <img src={me} width="150" height="150" alt="Me" />
         </div>
         <div className="banner-intro">
           <p className='banner-pink'>Hi, my name is</p>

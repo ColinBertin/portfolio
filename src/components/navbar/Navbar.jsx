@@ -11,7 +11,7 @@ const Navbar = ({toggleTheme, theme}) => {
 
   return (
     <div className="navbar">
-      <img className='logo' src={Logo} alt="logo" />
+      <img className='logo' src={Logo} width="50" height="50" alt="logo" />
       {/* Menu */}
       <ul className='desktop-list'>
         <li>
