@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../../assets/images/cb.png';
+import Logo from '../../assets/images/cb.webp';
 import './Navbar.scss';
 import { Link } from 'react-scroll';
 
