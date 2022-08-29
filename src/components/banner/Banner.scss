@@ -21,7 +21,7 @@
 
 .banner-photo img {
   width: 150px;
-  height: auto;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 40px;
   box-shadow: 3px 3px 23px 3px rgba(65, 63, 63, 0.3);
@@ -70,7 +70,8 @@
 @media (min-width: 720px) {
 
   .banner-photo img {
-    width: 350px;
+    width: 200px;
+    height: 200px;
   }
 
   .banner-intro {
@@ -79,6 +80,11 @@
 }
 
 @media (min-width: 965px) {
+  .banner-photo img {
+    width: 350px;
+    height: 350px;
+  }
+
   .width-limit {
     flex-direction: row-reverse;
     padding: 0 100px;
