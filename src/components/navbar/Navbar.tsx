@@ -4,7 +4,7 @@ import Logo from '../../assets/images/cb.webp';
 import './Navbar.scss';
 import { Link } from 'react-scroll';
 
-const Navbar = ({toggleTheme, theme}) => {
+const Navbar = () => {
 
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);

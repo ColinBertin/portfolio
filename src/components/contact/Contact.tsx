@@ -9,7 +9,7 @@ const Contact = () => {
         <input type="text" name="name" placeholder="Name" required/>
         <input type="email" name="email" placeholder="Email" required/>
         <textarea name="message" id="textarea" rows={10} placeholder="Message" minLength={10} required></textarea>
-        <button className='btn'>Let's Collaborate</button>
+        <button className='btn'>Let&aposs Collaborate</button>
       </form>
     </section>
   );
