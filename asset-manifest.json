@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.c4bfcbbf.css",
-    "main.js": "/static/js/main.3fe3962a.js",
+    "main.js": "/static/js/main.b0329d92.js",
+    "static/media/watch-list.png": "/static/media/watch-list.26403de2ffb2c692cb88.png",
+    "static/media/happy-tour.png": "/static/media/happy-tour.79a015ee8e917f791219.png",
     "static/media/weather.webp": "/static/media/weather.c47465c7a6941359fc0e.webp",
+    "static/media/profile.png": "/static/media/profile.d7550531ad324aeaca43.png",
     "static/media/drum.webp": "/static/media/drum.1e948761ebc547beb0af.webp",
-    "static/media/watch-list.webp": "/static/media/watch-list.1580cc3035bcdc2a5ef1.webp",
+    "static/media/traq.png": "/static/media/traq.b27a76800b47aad7eb7a.png",
     "static/media/me.webp": "/static/media/me.39cc8afd9508533f5787.webp",
-    "static/media/traq.webp": "/static/media/traq.08213e162e602f105dcb.webp",
-    "static/media/happy-tour.webp": "/static/media/happy-tour.bf2d70af238fb9bb7a89.webp",
-    "static/media/profile.webp": "/static/media/profile.34699e5ccdb272f1bbdb.webp",
     "static/media/countries.webp": "/static/media/countries.2ac7f89ff4c3f12e715f.webp",
     "static/media/cb.webp": "/static/media/cb.5ab5962b2e2df4608240.webp",
     "index.html": "/index.html",
     "main.c4bfcbbf.css.map": "/static/css/main.c4bfcbbf.css.map",
-    "main.3fe3962a.js.map": "/static/js/main.3fe3962a.js.map"
+    "main.b0329d92.js.map": "/static/js/main.b0329d92.js.map"
   },
   "entrypoints": [
     "static/css/main.c4bfcbbf.css",
-    "static/js/main.3fe3962a.js"
+    "static/js/main.b0329d92.js"
   ]
 }
