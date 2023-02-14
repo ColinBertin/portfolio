@@ -65,7 +65,7 @@ const projects = [
     name: "Weather Forecast",
     description: "Simple Weather app",
     img: weather,
-    language: [<i class="devicon-nextjs-plain-wordmark" style={{color: "#63DBFB", fontSize: "80px"}}></i>],
+    language: [<i class="devicon-nextjs-plain-wordmark" style={{color: "#FFF", fontSize: "65px"}}></i>, <i class="devicon-tailwindcss-plain" style={{color: "#63DBFB"}}></i>],
     url: "https://weather-app-kappa-livid.vercel.app/",
     git: "https://github.com/ColinBertin/weather-app"
   }
