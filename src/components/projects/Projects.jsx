@@ -7,6 +7,7 @@ import profile from '../../assets/images/profile.webp';
 import wlist from '../../assets/images/watch-list.webp';
 import drump from '../../assets/images/drum.webp';
 import country from '../../assets/images/countries.webp';
+import weather from '../../assets/images/weather.webp';
 
 
 // Add the projects to a JSON file and import it good style
@@ -59,6 +60,14 @@ const projects = [
     language: [<i className="devicon-react-plain" style={{color: "#63DBFB"}}></i>,<i className="devicon-css3-plain-wordmark" style={{color: "#3995CF"}}></i>],
     url: "https://colinbertin.github.io/countries-info/",
     git: "https://github.com/ColinBertin/countries-infos"
+  },
+  {
+    name: "Weather Forecast",
+    description: "Simple Weather app",
+    img: weather,
+    language: [<i class="devicon-nextjs-plain-wordmark" style={{color: "#63DBFB", fontSize: "80px"}}></i>],
+    url: "https://weather-app-kappa-livid.vercel.app/",
+    git: "https://github.com/ColinBertin/weather-app"
   }
 ]
 
