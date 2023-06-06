@@ -40,18 +40,27 @@ const Navbar = ({ toggleTheme, theme }) => {
           </Link>
         </li>
         <li>
-          <a onClick={toggleTheme} className={`themeButton ${theme}`}>
+          <a
+            onClick={toggleTheme}
+            className={`themeButton theme-btn-desktop ${theme}`}
+          >
             {theme === "dark" ? <BsSun /> : <BsMoon />}
           </a>
         </li>
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="mobile-hamburger">
+      <div onClick={handleClick} className={`mobile-hamburger ${theme}`}>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* Mobile menu */}
-      <ul className={!nav ? "mobile-list" : "mobile-list-active"}>
+      <ul
+        className={
+          !nav
+            ? "mobile-list"
+            : `mobile-list-active mobile-list-active-${theme}`
+        }
+      >
         <li>
           <Link onClick={handleClick} to="banner" smooth={true} duration={500}>
             Home
@@ -92,7 +101,7 @@ const Navbar = ({ toggleTheme, theme }) => {
               toggleTheme();
               handleClick();
             }}
-            className={`themeButton ${theme}`}
+            className={`themeButton theme-btn-mobile ${theme}`}
           >
             {theme === "dark" ? <BsSun /> : <BsMoon />}
           </a>
