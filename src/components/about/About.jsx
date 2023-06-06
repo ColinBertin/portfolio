@@ -11,7 +11,7 @@ const About = ({theme}) => {
           Hi! I'm Colin, nice to meet you. Please take a look around.
         </p>
         <p className='about-main-text'>
-        Passionate about building software and application. I'm 34 years old from Belgium. Based in Yokohama since 2018, I have been working and developing my Web developer skills. With a background in the food industry as part of the managing team, I always have been interested in the web industry. I'm looking to collaborate and work on an exciting project! Do not hesitate to<span> </span>
+        Passionate about building software and application. I'm 36 years old from Belgium. Based in Yokohama since 2018, I have been working and developing my Web developer skills. With a background in the food industry as part of the managing team, I always have been interested in the web industry. I'm looking to collaborate and work on an exciting project! Do not hesitate to<span> </span>
         <Link className='about-contact-link' to='contact' smooth={true} duration={500}>
         contact me
         </Link>

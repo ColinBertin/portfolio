@@ -31,7 +31,7 @@ const projects = [
         style={{ color: "#6837AF" }}
       ></i>,
     ],
-    url: "https://www.traq.info/",
+    url: "https://traq-795.herokuapp.com/",
     git: "https://github.com/ColinBertin/traq",
   },
   {
