@@ -21,7 +21,11 @@ input[type=text], input[type=email], textarea {
   color: #ccd6f6;
   cursor: pointer;
   display: inline-flex;
+  background-color: var(--light-primary);
 }
+ .btn-dark {
+  background-color: var(--dark-primary);
+ }
 
 .btn:hover {
   transition-duration: 300ms;

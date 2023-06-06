@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 
-const Contact = () => {
+const Contact = ({ theme }) => {
   return (
     <section className="contact">
       <h2>Contact</h2>
@@ -19,7 +19,7 @@ const Contact = () => {
           minLength="10"
           required
         ></textarea>
-        <button className="btn">Let's Collaborate</button>
+        <button className={`btn btn-${theme}`}>Let's Collaborate</button>
       </form>
     </section>
   );
