@@ -40,12 +40,12 @@ const Navbar = ({ toggleTheme, theme }) => {
           </Link>
         </li>
         <li>
-          {/* <a
+          <a
             onClick={toggleTheme}
             className={`themeButton theme-btn-desktop ${theme}`}
           >
             {theme === "dark" ? <BsSun /> : <BsMoon />}
-          </a> */}
+          </a>
         </li>
       </ul>
 
@@ -96,7 +96,7 @@ const Navbar = ({ toggleTheme, theme }) => {
           </Link>
         </li>
         <li>
-          {/* <a
+          <a
             onClick={() => {
               toggleTheme();
               handleClick();
@@ -104,7 +104,7 @@ const Navbar = ({ toggleTheme, theme }) => {
             className={`themeButton theme-btn-mobile ${theme}`}
           >
             {theme === "dark" ? <BsSun /> : <BsMoon />}
-          </a> */}
+          </a>
         </li>
       </ul>
     </div>
