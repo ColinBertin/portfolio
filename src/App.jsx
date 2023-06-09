@@ -6,7 +6,6 @@ import About from "./components/about/About";
 // import Skills from './components/skills/Skills';
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
-import { useEffect } from "react";
 
 function App() {
   const [theme, setTheme] = useState(
