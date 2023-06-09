@@ -6,9 +6,12 @@ import About from "./components/about/About";
 // import Skills from './components/skills/Skills';
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
+import { useEffect } from "react";
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState(
+    window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+  );
 
   const toggleTheme = () => {
     setTheme((state) => (state === "light" ? "dark" : "light"));
