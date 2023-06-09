@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a806972e.css",
+    "main.css": "/static/css/main.524f5abc.css",
     "main.js": "/static/js/main.bb9c1cda.js",
     "static/media/watch-list.png": "/static/media/watch-list.26403de2ffb2c692cb88.png",
     "static/media/happy-tour.png": "/static/media/happy-tour.79a015ee8e917f791219.png",
@@ -12,11 +12,11 @@
     "static/media/countries.webp": "/static/media/countries.2ac7f89ff4c3f12e715f.webp",
     "static/media/cb.webp": "/static/media/cb.5ab5962b2e2df4608240.webp",
     "index.html": "/index.html",
-    "main.a806972e.css.map": "/static/css/main.a806972e.css.map",
+    "main.524f5abc.css.map": "/static/css/main.524f5abc.css.map",
     "main.bb9c1cda.js.map": "/static/js/main.bb9c1cda.js.map"
   },
   "entrypoints": [
-    "static/css/main.a806972e.css",
+    "static/css/main.524f5abc.css",
     "static/js/main.bb9c1cda.js"
   ]
 }
