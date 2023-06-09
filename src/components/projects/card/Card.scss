@@ -16,7 +16,7 @@
   position: relative;
   &:hover {
     .card-languages {
-      visibility: visible;
+      opacity: 1;
     }
   }
 }
@@ -41,7 +41,8 @@ img {
   align-items: center;
   margin: 0;
   padding: 16px;
-  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
 
   .card-language {
     font-size: 40px;
@@ -62,12 +63,7 @@ img {
     font-size: 32px;
     padding-right: 16px;
     text-decoration: none;
-    color: #fff;
   }
-
-    a:hover {
-      color: #A43560;
-    }
 }
 
 

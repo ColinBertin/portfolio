@@ -7,9 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <p>© Colin Bertin JP, All rights reserved.</p>
-      <IconContext.Provider
-        value={{ color: "#8892b0", className: "contactIcon" }}
-      >
+      <IconContext.Provider value={{ className: "contactIcon" }}>
         <ul>
           <li>
             <a href="https://github.com/ColinBertin" target="_blank">

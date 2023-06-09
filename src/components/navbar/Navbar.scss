@@ -57,7 +57,6 @@ li {
 }
 
 .mobile-hamburger:hover {
-  transition-duration: 200ms;
   color: #A43560;
 }
 
@@ -93,9 +92,8 @@ li {
   margin-bottom: 36px;
 }
 
-.mobile-list-active li:hover {
-  color: #A43560;
-  cursor: pointer;
+.desktop-list li {
+  margin-left: 16px;
 }
 
 .desktop-list {
@@ -104,17 +102,7 @@ li {
   margin-right: 24px;
   list-style: none;
   display: none;
-  cursor: pointer;
 }
-
-.desktop-list li:hover {
-  color: #A43560;
-}
-
-.desktop-list li {
-  margin-left: 16px;
-}
-
 
 @media (min-width: 568px) {
   .desktop-list {
