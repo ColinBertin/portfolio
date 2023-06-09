@@ -40,10 +40,11 @@
   cursor: pointer;
   display: inline-flex;
   justify-content: space-between;
+  transition: 0.3s;
 }
 
 .banner-btn:hover {
-  transition-duration: 300ms;
+  color: #ccd6f6;
   border-color: #A43560;
   background-color: #A43560;
   .btn-arrow {
