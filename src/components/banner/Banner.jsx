@@ -18,7 +18,7 @@ const Banner = () => {
         <p className="banner-p-btn">
           I am a full-stack developer specializing in building great digital
           experiences. Currently, I'm focusing on building responsive full-stack
-          applications.{" "}
+          applications.
         </p>
         <Link className="banner-btn" to="projects" smooth={true} duration={500}>
           View Work
