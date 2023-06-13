@@ -11,9 +11,9 @@ const About = ({ theme }) => {
           Hi! I'm Colin, nice to meet you. Please take a look around.
         </p>
         <p className="about-main-text">
-          Passionate about building software and application. 36 years old from
-          Belgium, based in Yokohama since 2018, I have been working on
-          developing my Web developer skills. I always have been interested in
+          Passionate about building software and application. I am 36 years old
+          Belgian. Based in Yokohama since 2018, I have been working on
+          developing my Web developer skills. I always had a great interest in
           the web industry. I am looking to collaborate and work on an exciting
           project! Do not hesitate to<span> </span>
           <Link
