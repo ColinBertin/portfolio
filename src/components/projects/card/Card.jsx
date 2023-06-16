@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.scss';
 import { ExternalLink } from 'react-external-link';
 import { BsGithub } from "react-icons/bs";
-import { GoLinkExternal } from "react-icons/go";
+import { TbWorldWww } from "react-icons/tb";
 
 
 const Card = (props) => {
@@ -20,12 +20,12 @@ const Card = (props) => {
       </div>
       <div className="card-info">
           <h3>{props.name}</h3>
-          <div className="link">
+          <div className="card-link">
             <ExternalLink href={props.link}>
-              < GoLinkExternal />
+              <TbWorldWww size={35} />
             </ExternalLink>
             <ExternalLink href={props.git}>
-              < BsGithub />
+              < BsGithub size={30} />
             </ExternalLink>
           </div>
       </div>
