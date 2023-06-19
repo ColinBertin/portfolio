@@ -125,7 +125,7 @@ const projects = [
       ></i>,
     ],
     url: "https://colinbertin.github.io/countries-info/",
-    git: "https://github.com/ColinBertin/countries-infos",
+    git: "https://github.com/ColinBertin/countries-info",
   },
   {
     name: "Weather Forecast",
