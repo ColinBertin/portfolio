@@ -10,12 +10,12 @@ const Footer = () => {
       <IconContext.Provider value={{ className: "contactIcon" }}>
         <ul>
           <li>
-            <a href="https://github.com/ColinBertin" target="_blank">
+            <a href="https://github.com/ColinBertin" target="_blank" rel="noreferrer">
               <BsGithub />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/colinbertin/" target="_blank">
+            <a href="https://www.linkedin.com/in/colinbertin/" target="_blank" rel="noreferrer">
               <BsLinkedin />
             </a>
           </li>
