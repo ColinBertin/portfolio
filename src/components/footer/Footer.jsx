@@ -6,16 +6,24 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <footer>
-      <p>© Colin Bertin JP, All rights reserved.</p>
+      <p>© Colin Bertin JP 2022, All rights reserved.</p>
       <IconContext.Provider value={{ className: "contactIcon" }}>
         <ul>
           <li>
-            <a href="https://github.com/ColinBertin" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/ColinBertin"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsGithub />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/colinbertin/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/colinbertin/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsLinkedin />
             </a>
           </li>
