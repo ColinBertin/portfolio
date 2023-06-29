@@ -8,6 +8,7 @@
     height: 100vh;
     background-image: url("../../assets/images/forest.jpg");
     background-size: cover;
+    background-position: center;
     a {
         color: white;
         font-weight: bolder;
@@ -19,14 +20,24 @@
 
 .not-found-container {
     border-radius: 15px;
-    padding: 12px;
+    padding: 26px 15px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .not-found h2 {
     color: white;
-    font-size: 56px;
+    font-size: 30px;
     margin-bottom: 0;
     border: none;
 }
+
+@media (min-width: 720px) {
+    .not-found-container {
+        padding: 46px 30px;
+    }
+
+    .not-found h2 {
+        font-size: 56px;
+    }
+  }
