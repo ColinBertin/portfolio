@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.76a6fa24.css",
-    "main.js": "/static/js/main.0c73b151.js",
+    "main.js": "/static/js/main.89a7341e.js",
     "static/media/watch-list.png": "/static/media/watch-list.26403de2ffb2c692cb88.png",
     "static/media/happy-tour.png": "/static/media/happy-tour.79a015ee8e917f791219.png",
     "static/media/weather.webp": "/static/media/weather.c47465c7a6941359fc0e.webp",
@@ -14,10 +14,10 @@
     "static/media/cb.webp": "/static/media/cb.5ab5962b2e2df4608240.webp",
     "index.html": "/index.html",
     "main.76a6fa24.css.map": "/static/css/main.76a6fa24.css.map",
-    "main.0c73b151.js.map": "/static/js/main.0c73b151.js.map"
+    "main.89a7341e.js.map": "/static/js/main.89a7341e.js.map"
   },
   "entrypoints": [
     "static/css/main.76a6fa24.css",
-    "static/js/main.0c73b151.js"
+    "static/js/main.89a7341e.js"
   ]
 }
