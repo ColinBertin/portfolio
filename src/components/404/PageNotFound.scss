@@ -1,0 +1,32 @@
+.not-found {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/images/forest.jpg");
+    background-size: cover;
+    a {
+        color: white;
+        font-weight: bolder;
+    }
+    a:hover {
+        color: #c04071;
+    }
+}
+
+.not-found-container {
+    border-radius: 15px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);;
+}
+
+.not-found h2 {
+    color: white;
+    font-size: 56px;
+    margin-bottom: 0;
+    border: none;
+}
