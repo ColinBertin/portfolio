@@ -38,3 +38,9 @@ footer ul {
         font-size: small;
     }
 }
+
+@media (min-width: 965px) {
+    footer {
+        width: 100%;
+    }
+}
