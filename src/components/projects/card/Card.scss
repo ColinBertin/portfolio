@@ -44,9 +44,25 @@ img {
   opacity: 0;
   transition: 0.5s;
 
+  a {
+    text-decoration: none;
+  }
+
   .card-language {
     font-size: 40px;
     margin-left: 16px;
+  }
+
+  .card-language:hover {
+    font-size: 52px;
+  }
+
+  .next-logo {
+    font-size: 65px;
+  }
+
+  .next-logo:hover {
+    font-size: 85px;
   }
 }
 

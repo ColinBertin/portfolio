@@ -1,31 +1,123 @@
+// import profile from "../../assets/images/profile.png";
 import traq from "../../assets/images/traq.png";
 import hpt from "../../assets/images/happy-tour.png";
-import profile from "../../assets/images/profile.png";
 import wlist from "../../assets/images/watch-list.png";
 import drump from "../../assets/images/drum.webp";
 import country from "../../assets/images/countries.webp";
 import weather from "../../assets/images/weather.webp";
 
 export function GetProjects() {
+  const rails = () => {
+    return (
+      <a href="https://rubyonrails.org/" target="_blanck">
+        <i
+          className="devicon-rails-plain-wordmark"
+          style={{ color: "#D4382E" }}
+        ></i>
+      </a>
+    );
+  };
+
+  const javascript = () => {
+    return (
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        target="_blanck"
+      >
+        <i
+          className="devicon-javascript-plain"
+          style={{ color: "#EFD82F" }}
+        ></i>
+      </a>
+    );
+  };
+
+  const heroku = () => {
+    return (
+      <a href="https://devcenter.heroku.com/" target="_blanck">
+        <i
+          className="devicon-heroku-original-wordmark"
+          style={{ color: "#6837AF" }}
+        ></i>
+      </a>
+    );
+  };
+
+  const html = () => {
+    return (
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+        target="_blanck"
+      >
+        <i
+          className="devicon-html5-plain-wordmark"
+          style={{ color: "#DD4C30" }}
+        ></i>
+      </a>
+    );
+  };
+
+  const css = () => {
+    return (
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+        target="_blanck"
+      >
+        <i
+          className="devicon-css3-plain-wordmark"
+          style={{ color: "#3995CF" }}
+        ></i>
+      </a>
+    );
+  };
+
+  const bootstrap = () => {
+    return (
+      <a href="https://getbootstrap.com/" target="_blanck">
+        <i
+          className="devicon-bootstrap-plain-wordmark"
+          style={{ color: "#794EF6" }}
+        ></i>
+      </a>
+    );
+  };
+
+  const react = () => {
+    return (
+      <a href="https://react.dev/" target="_blanck">
+        <i className="devicon-react-plain" style={{ color: "#63DBFB" }}></i>
+      </a>
+    );
+  };
+
+  const next = () => {
+    return (
+      <a className="next-logo" href="https://nextjs.org/" target="_blanck">
+        <i
+          className="devicon-nextjs-plain-wordmark"
+          style={{ color: "#FFF" }}
+        ></i>
+      </a>
+    );
+  };
+
+  const tailwind = () => {
+    return (
+      <a href="https://tailwindcss.com/" target="_blanck">
+        <i
+          className="devicon-tailwindcss-plain"
+          style={{ color: "#63DBFB" }}
+        ></i>
+      </a>
+    );
+  };
+
   const projects = [
     {
       name: "TraQ",
       description: "Emergency response service...",
       img: traq,
-      language: [
-        <i
-          className="devicon-rails-plain-wordmark"
-          style={{ color: "#D4382E" }}
-        ></i>,
-        <i
-          className="devicon-javascript-plain"
-          style={{ color: "#EFD82F" }}
-        ></i>,
-        <i
-          className="devicon-heroku-original-wordmark"
-          style={{ color: "#6837AF" }}
-        ></i>,
-      ],
+      language: [rails(), javascript(), heroku()],
       url: "https://traq-795.herokuapp.com/",
       git: "https://github.com/ColinBertin/traq",
     },
@@ -33,20 +125,7 @@ export function GetProjects() {
       name: "Happy Tour",
       description: "Find the best brewerie tour near to you",
       img: hpt,
-      language: [
-        <i
-          className="devicon-rails-plain-wordmark"
-          style={{ color: "#D4382E" }}
-        ></i>,
-        <i
-          className="devicon-javascript-plain"
-          style={{ color: "#EFD82F" }}
-        ></i>,
-        <i
-          className="devicon-heroku-original-wordmark"
-          style={{ color: "#6837AF" }}
-        ></i>,
-      ],
+      language: [rails(), javascript(), heroku()],
       url: "https://happy-tour-795.herokuapp.com/",
       git: "https://github.com/ColinBertin/happy-tour",
     },
@@ -54,24 +133,7 @@ export function GetProjects() {
       name: "Watch list",
       description: "Create your own watch list",
       img: wlist,
-      language: [
-        <i
-          className="devicon-rails-plain-wordmark"
-          style={{ color: "#D4382E" }}
-        ></i>,
-        <i
-          className="devicon-javascript-plain"
-          style={{ color: "#EFD82F" }}
-        ></i>,
-        <i
-          className="devicon-heroku-original-wordmark"
-          style={{ color: "#6837AF" }}
-        ></i>,
-        <i
-          className="devicon-bootstrap-plain-wordmark"
-          style={{ color: "#794EF6" }}
-        ></i>,
-      ],
+      language: [rails(), javascript(), heroku(), bootstrap()],
       url: "https://colin-watch-list.herokuapp.com/",
       git: "https://github.com/ColinBertin/rails-watch-list",
     },
@@ -79,20 +141,7 @@ export function GetProjects() {
       name: "Drum JS",
       description: "Playing around with event listener and playing sound",
       img: drump,
-      language: [
-        <i
-          className="devicon-html5-plain-wordmark"
-          style={{ color: "#DD4C30" }}
-        ></i>,
-        <i
-          className="devicon-css3-plain-wordmark"
-          style={{ color: "#3995CF" }}
-        ></i>,
-        <i
-          className="devicon-javascript-plain"
-          style={{ color: "#EFD82F" }}
-        ></i>,
-      ],
+      language: [html(), css(), javascript()],
       url: "https://colinbertin.github.io/JS-drum-kit/",
       git: "https://github.com/ColinBertin/JS-drum-kit",
     },
@@ -100,13 +149,7 @@ export function GetProjects() {
       name: "Countries infos",
       description: "Get information about country",
       img: country,
-      language: [
-        <i className="devicon-react-plain" style={{ color: "#63DBFB" }}></i>,
-        <i
-          className="devicon-css3-plain-wordmark"
-          style={{ color: "#3995CF" }}
-        ></i>,
-      ],
+      language: [react(), css()],
       url: "https://colinbertin.github.io/countries-info/",
       git: "https://github.com/ColinBertin/countries-info",
     },
@@ -114,16 +157,7 @@ export function GetProjects() {
       name: "Weather Forecast",
       description: "Simple Weather app",
       img: weather,
-      language: [
-        <i
-          className="devicon-nextjs-plain-wordmark"
-          style={{ color: "#FFF", fontSize: "65px" }}
-        ></i>,
-        <i
-          className="devicon-tailwindcss-plain"
-          style={{ color: "#63DBFB" }}
-        ></i>,
-      ],
+      language: [next(), tailwind()],
       url: "https://weather-app-kappa-livid.vercel.app/",
       git: "https://github.com/ColinBertin/weather-app",
     },
