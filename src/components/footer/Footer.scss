@@ -1,10 +1,13 @@
 footer {
+    padding: 0 16px;
+}
+
+.footer-container {
     border-top: 2px solid #A43560;
     display: flex;
+    padding: 0 16px;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
-    width: 90%;
 }
 
 footer p {
@@ -29,7 +32,7 @@ footer ul {
 }
 
 @media (min-width: 520px) {
-    footer {
+    .footer-container {
         justify-content: space-between;
     }
 
@@ -40,7 +43,7 @@ footer ul {
 }
 
 @media (min-width: 965px) {
-    footer {
+    .footer-container {
         width: 100%;
     }
 }

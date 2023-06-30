@@ -34,10 +34,6 @@ main {
   padding: 50px 20px;
 }
 
-footer {
-  margin: 0 20px;
-}
-
 h1, h2 {
   color: #ccd6f6;
   font-family: 'Roboto', sans-serif;
@@ -91,14 +87,10 @@ a:hover {
   .projects, .about, .skills, .contact{
     padding: 50px 100px;
   }
-
-  footer {
-    margin: 0 100px;
-  }
 }
 
 @media (min-width: 1440px) {
-  .projects, .about, .skills, .contact, footer {
+  .projects, .about, .skills, .contact {
     max-width: 70%;
   }
 }

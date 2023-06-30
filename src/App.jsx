@@ -26,8 +26,8 @@ function App() {
         {/* < Skills /> */}
         <Projects />
         <Contact theme={theme} />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 }
