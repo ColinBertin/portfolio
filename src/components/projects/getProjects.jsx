@@ -14,10 +14,6 @@ export function GetProjects() {
       img: traq,
       language: [
         <i
-          className="devicon-ruby-plain-wordmark"
-          style={{ color: "#D4382E" }}
-        ></i>,
-        <i
           className="devicon-rails-plain-wordmark"
           style={{ color: "#D4382E" }}
         ></i>,
@@ -38,10 +34,6 @@ export function GetProjects() {
       description: "Find the best brewerie tour near to you",
       img: hpt,
       language: [
-        <i
-          className="devicon-ruby-plain-wordmark"
-          style={{ color: "#D4382E" }}
-        ></i>,
         <i
           className="devicon-rails-plain-wordmark"
           style={{ color: "#D4382E" }}
@@ -82,23 +74,6 @@ export function GetProjects() {
       ],
       url: "https://colin-watch-list.herokuapp.com/",
       git: "https://github.com/ColinBertin/rails-watch-list",
-    },
-    {
-      name: "Simple profile",
-      description: "Find the best brewerie tour near to you",
-      img: profile,
-      language: [
-        <i
-          className="devicon-html5-plain-wordmark"
-          style={{ color: "#DD4C30" }}
-        ></i>,
-        <i
-          className="devicon-css3-plain-wordmark"
-          style={{ color: "#3995CF" }}
-        ></i>,
-      ],
-      url: "https://colinbertin.github.io/profile/",
-      git: "https://github.com/ColinBertin/profile",
     },
     {
       name: "Drum JS",
