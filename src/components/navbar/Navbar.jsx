@@ -16,7 +16,7 @@ const Navbar = ({ toggleTheme, theme }) => {
       <ul className="desktop-list">
         <li>
           <Link to="banner" smooth={true} duration={500}>
-            Home
+            Top
           </Link>
         </li>
         <li>
