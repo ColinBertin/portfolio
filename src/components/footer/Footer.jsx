@@ -16,7 +16,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <BsGithub />
+                <BsGithub size={28} />
               </a>
             </li>
             <li>
@@ -25,7 +25,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <BsLinkedin />
+                <BsLinkedin size={28} />
               </a>
             </li>
           </ul>
