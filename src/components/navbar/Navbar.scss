@@ -1,6 +1,5 @@
 .themeButton {
   font-size: x-large;
-  font-weight: bold;
   display: flex;
   align-items: center;
   gap: 0.5em;
@@ -112,6 +111,7 @@ li {
 @media (min-width: 568px) {
   .desktop-list {
     display: inline-flex;
+    align-items: center;
   }
 
   .mobile-hamburger, .mobile-list {

@@ -44,7 +44,11 @@ const Navbar = ({ toggleTheme, theme }) => {
             onClick={toggleTheme}
             className={`themeButton theme-btn-desktop ${theme}`}
           >
-            {theme === "dark" ? <BsSun /> : <BsMoon />}
+            {theme === "dark" ? (
+              <BsSun style={{ strokeWidth: "0.5" }} />
+            ) : (
+              <BsMoon style={{ strokeWidth: "0.2" }} />
+            )}
           </button>
         </li>
       </ul>
@@ -103,7 +107,11 @@ const Navbar = ({ toggleTheme, theme }) => {
             }}
             className={`themeButton theme-btn-mobile ${theme}`}
           >
-            {theme === "dark" ? <BsSun /> : <BsMoon />}
+            {theme === "dark" ? (
+              <BsSun style={{ strokeWidth: "0.5" }} />
+            ) : (
+              <BsMoon style={{ strokeWidth: "0.2" }} />
+            )}
           </button>
         </li>
       </ul>
