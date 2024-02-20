@@ -51,10 +51,14 @@
     transform: rotate(90deg);
     transition-duration: 300ms;
   }
+  .btn-arrow:not(:hover) {
+    transform: rotate(0deg);
+  }
 }
 
 .btn-arrow {
   margin-left: 10px;
+  transition-duration: 300ms;
 }
 
 
