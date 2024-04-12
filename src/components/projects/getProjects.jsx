@@ -12,8 +12,8 @@ export function GetProjects() {
       <a href="https://expressjs.com" target="_blanck">
         <i class="devicon-express-original" style={{ color: "#F5F5F5" }}></i>
       </a>
-    )
-  }
+    );
+  };
 
   const rails = () => {
     return (
@@ -28,14 +28,11 @@ export function GetProjects() {
 
   const typescript = () => {
     return (
-      <a
-        href="https://www.typescriptlang.org"
-        target="_blanck"
-      >
-        <i class="devicon-typescript-plain" style={{color: "#2f73bf"}}></i>
+      <a href="https://www.typescriptlang.org" target="_blanck">
+        <i class="devicon-typescript-plain" style={{ color: "#2f73bf" }}></i>
       </a>
-    )
-  }
+    );
+  };
 
   const javascript = () => {
     return (
@@ -53,9 +50,10 @@ export function GetProjects() {
 
   const vercel = () => {
     return (
-      <a href="https://vercel.com" target="_blanck">
+      <a href="https://devcenter.heroku.com" target="_blanck">
         <i
-          class="devicon-vercel-original-wordmark"
+          className="devicon-vercel-original"
+          style={{ color: "#fff" }}
         ></i>
       </a>
     );
