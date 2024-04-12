@@ -48,16 +48,16 @@ export function GetProjects() {
     );
   };
 
-  const vercel = () => {
-    return (
-      <a href="https://devcenter.heroku.com" target="_blanck">
-        <i
-          className="devicon-vercel-original"
-          style={{ color: "#fff" }}
-        ></i>
-      </a>
-    );
-  };
+  // const vercel = () => {
+  //   return (
+  //     <a href="https://devcenter.heroku.com" target="_blanck">
+  //       <i
+  //         className="devicon-vercel-original"
+  //         style={{ color: "#fff" }}
+  //       ></i>
+  //     </a>
+  //   );
+  // };
 
   const heroku = () => {
     return (
@@ -160,7 +160,7 @@ export function GetProjects() {
       name: "Entertainment",
       description: "Create your own watch list",
       img: wlist,
-      language: [express(), typescript(), react(), tailwind(), vercel()],
+      language: [express(), typescript(), react(), tailwind()],
       url: "https://entertainment-lemon.vercel.app",
       git: "",
     },
