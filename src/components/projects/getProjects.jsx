@@ -1,15 +1,23 @@
 // import profile from "../../assets/images/profile.png";
 import traq from "../../assets/images/traq.png";
 import hpt from "../../assets/images/happy-tour.png";
-import wlist from "../../assets/images/watch-list.png";
+import wlist from "../../assets/images/entertainment.png";
 import drump from "../../assets/images/drum.webp";
 import country from "../../assets/images/countries.webp";
 import weather from "../../assets/images/weather.webp";
 
 export function GetProjects() {
+  const express = () => {
+    return (
+      <a href="https://expressjs.com" target="_blanck">
+        <i class="devicon-express-original" style={{ color: "#F5F5F5" }}></i>
+      </a>
+    )
+  }
+
   const rails = () => {
     return (
-      <a href="https://rubyonrails.org/" target="_blanck">
+      <a href="https://rubyonrails.org" target="_blanck">
         <i
           className="devicon-rails-plain-wordmark"
           style={{ color: "#D4382E" }}
@@ -17,6 +25,17 @@ export function GetProjects() {
       </a>
     );
   };
+
+  const typescript = () => {
+    return (
+      <a
+        href="https://www.typescriptlang.org"
+        target="_blanck"
+      >
+        <i class="devicon-typescript-plain" style={{color: "#2f73bf"}}></i>
+      </a>
+    )
+  }
 
   const javascript = () => {
     return (
@@ -32,9 +51,19 @@ export function GetProjects() {
     );
   };
 
+  const vercel = () => {
+    return (
+      <a href="https://vercel.com" target="_blanck">
+        <i
+          class="devicon-vercel-original-wordmark"
+        ></i>
+      </a>
+    );
+  };
+
   const heroku = () => {
     return (
-      <a href="https://devcenter.heroku.com/" target="_blanck">
+      <a href="https://devcenter.heroku.com" target="_blanck">
         <i
           className="devicon-heroku-original-wordmark"
           style={{ color: "#6837AF" }}
@@ -71,20 +100,20 @@ export function GetProjects() {
     );
   };
 
-  const bootstrap = () => {
-    return (
-      <a href="https://getbootstrap.com/" target="_blanck">
-        <i
-          className="devicon-bootstrap-plain-wordmark"
-          style={{ color: "#794EF6" }}
-        ></i>
-      </a>
-    );
-  };
+  // const bootstrap = () => {
+  //   return (
+  //     <a href="https://getbootstrap.com" target="_blanck">
+  //       <i
+  //         className="devicon-bootstrap-plain-wordmark"
+  //         style={{ color: "#794EF6" }}
+  //       ></i>
+  //     </a>
+  //   );
+  // };
 
   const react = () => {
     return (
-      <a href="https://react.dev/" target="_blanck">
+      <a href="https://react.dev" target="_blanck">
         <i className="devicon-react-plain" style={{ color: "#63DBFB" }}></i>
       </a>
     );
@@ -92,7 +121,7 @@ export function GetProjects() {
 
   const next = () => {
     return (
-      <a className="next-logo" href="https://nextjs.org/" target="_blanck">
+      <a className="next-logo" href="https://nextjs.org" target="_blanck">
         <i
           className="devicon-nextjs-plain-wordmark"
           style={{ color: "#FFF" }}
@@ -103,7 +132,7 @@ export function GetProjects() {
 
   const tailwind = () => {
     return (
-      <a href="https://tailwindcss.com/" target="_blanck">
+      <a href="https://tailwindcss.com" target="_blanck">
         <i
           className="devicon-tailwindcss-plain"
           style={{ color: "#63DBFB" }}
@@ -118,7 +147,7 @@ export function GetProjects() {
       description: "Emergency response service...",
       img: traq,
       language: [rails(), javascript(), heroku()],
-      url: "https://traq-795.herokuapp.com/",
+      url: "https://traq-795.herokuapp.com",
       git: "https://github.com/ColinBertin/traq",
     },
     {
@@ -126,23 +155,23 @@ export function GetProjects() {
       description: "Find the best brewerie tour near to you",
       img: hpt,
       language: [rails(), javascript(), heroku()],
-      url: "https://happy-tour-795.herokuapp.com/",
+      url: "https://happy-tour-795.herokuapp.com",
       git: "https://github.com/ColinBertin/happy-tour",
     },
     {
-      name: "Watch list",
+      name: "Entertainment",
       description: "Create your own watch list",
       img: wlist,
-      language: [rails(), javascript(), heroku(), bootstrap()],
-      url: "https://colin-watch-list.herokuapp.com/",
-      git: "https://github.com/ColinBertin/rails-watch-list",
+      language: [express(), typescript(), react(), tailwind(), vercel()],
+      url: "https://entertainment-lemon.vercel.app",
+      git: "",
     },
     {
       name: "Drum JS",
       description: "Playing around with event listener and playing sound",
       img: drump,
       language: [html(), css(), javascript()],
-      url: "https://colinbertin.github.io/JS-drum-kit/",
+      url: "https://colinbertin.github.io/JS-drum-kit",
       git: "https://github.com/ColinBertin/JS-drum-kit",
     },
     {
@@ -150,7 +179,7 @@ export function GetProjects() {
       description: "Get information about country",
       img: country,
       language: [react(), css()],
-      url: "https://colinbertin.github.io/countries-info/",
+      url: "https://colinbertin.github.io/countries-info",
       git: "https://github.com/ColinBertin/countries-info",
     },
     {
@@ -158,7 +187,7 @@ export function GetProjects() {
       description: "Simple Weather app",
       img: weather,
       language: [next(), tailwind()],
-      url: "https://weather-app-kappa-livid.vercel.app/",
+      url: "https://weather-app-kappa-livid.vercel.app",
       git: "https://github.com/ColinBertin/weather-app",
     },
   ];
