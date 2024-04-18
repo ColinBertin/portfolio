@@ -9,7 +9,7 @@ export function GetProjects() {
   const express = () => {
     return (
       <a href="https://expressjs.com" target="_blanck">
-        <i class="devicon-express-original" style={{ color: "#F5F5F5" }}></i>
+        <i className="devicon-express-original" style={{ color: "#F5F5F5" }}></i>
       </a>
     );
   };
@@ -28,7 +28,7 @@ export function GetProjects() {
   const typescript = () => {
     return (
       <a href="https://www.typescriptlang.org" target="_blanck">
-        <i class="devicon-typescript-plain" style={{ color: "#2f73bf" }}></i>
+        <i className="devicon-typescript-plain" style={{ color: "#2f73bf" }}></i>
       </a>
     );
   };
