@@ -1,7 +1,6 @@
-// import profile from "../../assets/images/profile.png";
 import traq from "../../assets/images/traq.png";
-import hpt from "../../assets/images/happy-tour.png";
-import wlist from "../../assets/images/entertainment.png";
+import obj from "../../assets/images/objectif-crea.png";
+import ent from "../../assets/images/entertainment.png";
 import drump from "../../assets/images/drum.webp";
 import country from "../../assets/images/countries.webp";
 import weather from "../../assets/images/weather.webp";
@@ -48,16 +47,16 @@ export function GetProjects() {
     );
   };
 
-  // const vercel = () => {
-  //   return (
-  //     <a href="https://devcenter.heroku.com" target="_blanck">
-  //       <i
-  //         className="devicon-vercel-original"
-  //         style={{ color: "#fff" }}
-  //       ></i>
-  //     </a>
-  //   );
-  // };
+  const vercel = () => {
+    return (
+      <a href="https://devcenter.heroku.com" target="_blanck">
+        <i
+          className="devicon-vercel-original"
+          style={{ color: "#fff" }}
+        ></i>
+      </a>
+    );
+  };
 
   const heroku = () => {
     return (
@@ -149,17 +148,17 @@ export function GetProjects() {
       git: "https://github.com/ColinBertin/traq",
     },
     {
-      name: "Happy Tour",
-      description: "Find the best brewerie tour near to you",
-      img: hpt,
-      language: [rails(), javascript(), heroku()],
-      url: "https://happy-tour-795.herokuapp.com",
-      git: "https://github.com/ColinBertin/happy-tour",
+      name: "ObjectifCréa",
+      description: "Photographer portfolio",
+      img: obj,
+      language: [next(), typescript(), vercel()],
+      url: "https://www.objectifcrea.be",
+      git: "",
     },
     {
       name: "Entertainment",
       description: "Create your own watch list",
-      img: wlist,
+      img: ent,
       language: [express(), react(), typescript(), tailwind()],
       url: "https://entertainment-lemon.vercel.app",
       git: "https://github.com/ColinBertin/entertainment_v2",
