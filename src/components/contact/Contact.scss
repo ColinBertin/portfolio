@@ -4,9 +4,10 @@
 
 form {
   display: flex;
+  max-width: 600px;
   flex-direction: column;
   gap: 20px;
-  margin: 32px 16px;
+  margin: 32px auto;
 }
 
 input[type=text], input[type=email], textarea {
