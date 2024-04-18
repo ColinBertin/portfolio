@@ -1,10 +1,86 @@
-import React from 'react';
-import './Skills.scss';
+import React from "react";
+import "./Skills.scss";
 
 const Skills = () => {
+  const skillsList = [
+    {
+      name: "express",
+      url: "https://expressjs.com",
+      class: "devicon-express-original",
+      color: "#F5F5F5",
+    },
+    {
+      name: "react",
+      url: "https://react.dev",
+      class: "devicon-react-plain",
+      color: "#63DBFB",
+    },
+    {
+      name: "next",
+      url: "https://nextjs.org",
+      class: "devicon-nextjs-plain-wordmark",
+      color: "#fff",
+    },
+    {
+      name: "javascript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      class: "devicon-javascript-plain",
+      color: "#EFD82F",
+    },
+    {
+      name: "typescript",
+      url: "https://www.typescriptlang.org",
+      class: "devicon-typescript-plain",
+      color: "#2f73bf",
+    },
+    {
+      name: "tailwind",
+      url: "https://tailwindcss.com",
+      class: "devicon-tailwindcss-plain",
+      color: "#63DBFB",
+    },
+    {
+      name: "heroku",
+      url: "https://devcenter.heroku.com",
+      class: "devicon-heroku-original-wordmark",
+      color: "#6837AF",
+    },
+    {
+      name: "git",
+      url: "https://git-scm.com/doc",
+      class: "devicon-git-plain",
+      color: "#f54d27",
+    },
+    {
+      name: "rails",
+      url: "https://rubyonrails.org",
+      class: "devicon-rails-plain-wordmark",
+      color: "#D4382E",
+    },
+    // {
+    //   name: "vercel",
+    //   url: "https://vercel.com/docs",
+    //   class: "devicon-vercel-original-wordmark",
+    //   color: "#fff",
+    // },
+  ];
   return (
     <section className="skills">
       <h2>Skills</h2>
+      <div className="skills-language">
+      {skillsList.map((skill) => (
+        <a
+          key={skill.name}
+          href={skill.url}
+          target="_blanck"
+        >
+          <i
+            className={skill.class}
+            style={{ color: skill.color }}
+          ></i>
+        </a>
+      ))}
+      </div>
     </section>
   );
 };

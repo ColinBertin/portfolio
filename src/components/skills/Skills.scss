@@ -1,0 +1,25 @@
+.skills {
+  margin: 32px 0;
+}
+
+.skills-language {
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+  font-size: 60px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .skills-language {
+      max-width: 50%;
+      font-size: 90px;
+    }
+}
