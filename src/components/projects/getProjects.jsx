@@ -162,7 +162,7 @@ export function GetProjects() {
       img: wlist,
       language: [express(), typescript(), react(), tailwind()],
       url: "https://entertainment-lemon.vercel.app",
-      git: "",
+      git: "https://github.com/ColinBertin/entertainment_v2",
     },
     {
       name: "Drum JS",
