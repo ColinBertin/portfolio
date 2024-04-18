@@ -16,9 +16,9 @@ const Banner = () => {
         <h1 className="banner-h1">Colin Bertin</h1>
         <h2 className="banner-h2">I am a Full Stack Developer. </h2>
         <p className="banner-p-btn">
-          I am a full-stack developer specializing in building great digital
-          experiences. Currently, I'm focusing on building responsive full-stack
-          applications.
+          I am a full-stack developer specializing in crafting exceptional
+          digital experiences. Currently, I am focused on developing responsive
+          full-stack applications.
         </p>
         <Link className="banner-btn" to="projects" smooth={true} duration={500}>
           View Work

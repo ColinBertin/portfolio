@@ -11,11 +11,11 @@ const About = () => {
           Hi! I'm Colin, nice to meet you. Please take a look around.
         </p>
         <p className="about-main-text">
-          Passionate about building software and application. I am 36 years old
-          Belgian. Based in Yokohama since 2018, I have been working on
-          developing my Web developer skills. I always had a great interest in
-          the web industry. I am looking to collaborate and work on an exciting
-          project! Do not hesitate to<span> </span>
+          Passionate about building software and applications, I am a
+          36-year-old Belgian. Based in Yokohama since 2018, I have been honing
+          my web development skills. With a keen interest in the web industry, I
+          am eager to collaborate on exciting projects. Feel free to contact me
+          for more information!<span> </span>
           <Link
             className="about-contact-link"
             to="contact"
