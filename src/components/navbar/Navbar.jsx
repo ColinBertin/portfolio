@@ -1,5 +1,5 @@
 // import { BsSun, BsMoon } from "react-icons/bs";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../assets/images/cb.webp";
 import "./Navbar.scss";
@@ -8,6 +8,18 @@ import { Link } from "react-scroll";
 const Navbar = ({ toggleTheme, theme }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  useEffect(() => {
+    if (nav) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+        document.body.style.overflow = '';
+    };
+  }, [nav]);
 
   return (
     <div className={`navbar navbar-${theme}`}>
@@ -24,11 +36,11 @@ const Navbar = ({ toggleTheme, theme }) => {
             About
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link to="projects" smooth={true} duration={500}>
             Projects
@@ -67,7 +79,7 @@ const Navbar = ({ toggleTheme, theme }) => {
       >
         <li>
           <Link onClick={handleClick} to="banner" smooth={true} duration={500}>
-            Home
+            Top
           </Link>
         </li>
         <li>
@@ -76,12 +88,12 @@ const Navbar = ({ toggleTheme, theme }) => {
             About
           </Link>
         </li>
-        {/* <li>
-          {' '}
+        <li>
+          {" "}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
-        </li> */}
+        </li>
         <li>
           {" "}
           <Link
