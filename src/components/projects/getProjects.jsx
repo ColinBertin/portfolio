@@ -160,7 +160,7 @@ export function GetProjects() {
       description: "Create your own watch list",
       img: ent,
       language: [express(), react(), typescript(), tailwind()],
-      url: "https://entertainment-lemon.vercel.app",
+      url: "https://entertainment-lemon.vercel.app/login",
       git: "https://github.com/ColinBertin/entertainment_v2",
     },
     {
