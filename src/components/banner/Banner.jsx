@@ -13,8 +13,9 @@ const Banner = () => {
       </div>
       <div className="banner-intro">
         <p className="banner-pink">Hi, my name is</p>
-        <h1 className="banner-h1">Colin Bertin</h1>
-        <h2 className="banner-h2">I am a Full Stack Developer. </h2>
+        <h1 className="banner-h1">
+          Colin Bertin <br/><span className="banner-h2">I am a Full Stack Developer.</span>
+        </h1>
         <p className="banner-p-btn">
           I am a full-stack developer specializing in crafting exceptional
           digital experiences. Currently, I am focused on developing responsive
