@@ -140,12 +140,12 @@ export function GetProjects() {
 
   const projects = [
     {
-      name: "TraQ",
-      description: "Emergency response service...",
-      img: traq,
-      language: [rails(), javascript(), heroku()],
-      url: "https://traq-795.herokuapp.com",
-      git: "https://github.com/ColinBertin/traq",
+      name: "Entertainment",
+      description: "Create your own watch list",
+      img: ent,
+      language: [express(), react(), typescript(), tailwind()],
+      url: "https://entertainment-lemon.vercel.app/login",
+      git: "https://github.com/ColinBertin/entertainment_v2",
     },
     {
       name: "ObjectifCréa",
@@ -156,22 +156,6 @@ export function GetProjects() {
       git: "",
     },
     {
-      name: "Entertainment",
-      description: "Create your own watch list",
-      img: ent,
-      language: [express(), react(), typescript(), tailwind()],
-      url: "https://entertainment-lemon.vercel.app/login",
-      git: "https://github.com/ColinBertin/entertainment_v2",
-    },
-    {
-      name: "Drum JS",
-      description: "Playing around with event listener and playing sound",
-      img: drump,
-      language: [html(), css(), javascript()],
-      url: "https://colinbertin.github.io/JS-drum-kit",
-      git: "https://github.com/ColinBertin/JS-drum-kit",
-    },
-    {
       name: "Countries infos",
       description: "Get information about country",
       img: country,
@@ -180,12 +164,28 @@ export function GetProjects() {
       git: "https://github.com/ColinBertin/countries-info",
     },
     {
+      name: "TraQ",
+      description: "Emergency response service...",
+      img: traq,
+      language: [rails(), javascript(), heroku()],
+      url: "https://traq-795.herokuapp.com",
+      git: "https://github.com/ColinBertin/traq",
+    },
+    {
       name: "Weather Forecast",
       description: "Simple Weather app",
       img: weather,
       language: [next(), tailwind()],
       url: "https://weather-app-kappa-livid.vercel.app",
       git: "https://github.com/ColinBertin/weather-app",
+    },
+    {
+      name: "Drum JS",
+      description: "Playing around with event listener and playing sound",
+      img: drump,
+      language: [html(), css(), javascript()],
+      url: "https://colinbertin.github.io/JS-drum-kit",
+      git: "https://github.com/ColinBertin/JS-drum-kit",
     },
   ];
   return projects;
