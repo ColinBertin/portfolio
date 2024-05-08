@@ -27,11 +27,6 @@ const Navbar = ({ toggleTheme, theme }) => {
       {/* Menu */}
       <ul className="desktop-list">
         <li>
-          <Link to="banner" smooth={true} duration={500}>
-            Top
-          </Link>
-        </li>
-        <li>
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
@@ -77,11 +72,6 @@ const Navbar = ({ toggleTheme, theme }) => {
             : `mobile-list-active mobile-list-active-${theme}`
         }
       >
-        <li>
-          <Link onClick={handleClick} to="banner" smooth={true} duration={500}>
-            Top
-          </Link>
-        </li>
         <li>
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
