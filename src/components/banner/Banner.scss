@@ -8,13 +8,10 @@
   margin-top: 20px;
   align-items: center;
   margin: 20px auto 0 auto;
-  a {
-    visibility: hidden;
-  }
 }
 
 .banner-pink {
-  color: #A43560;
+  color: #a43560;
   margin-bottom: 0;
 }
 
@@ -45,38 +42,32 @@
   display: inline-flex;
   justify-content: space-between;
   transition: 0.3s;
+  align-items: center;
 }
 
 .banner-btn:hover {
   color: #ccd6f6;
-  border-color: #A43560;
-  background-color: #A43560;
-  .btn-arrow {
-    transform: rotate(90deg);
-    transition-duration: 300ms;
-  }
-  .btn-arrow:not(:hover) {
-    transform: rotate(0deg);
-  }
+  border-color: #a43560;
+  background-color: #a43560;
+}
+
+.banner-btn:hover .btn-arrow {
+  transform: rotate(90deg);
 }
 
 .btn-arrow {
   margin-left: 10px;
-  transition-duration: 300ms;
+  transition: transform 0.3s;
 }
-
 
 .banner-p-btn {
   margin-bottom: 40px;
 }
 
 @media (min-width: 720px) {
-
-  .banner {
-      a {
-        visibility: visible;
-      }
-    }
+  .banner a {
+    visibility: visible;
+  }
 
   .banner-photo img {
     width: 250px;
