@@ -1,4 +1,4 @@
-import traq from "../../assets/images/traq.png";
+// import traq from "../../assets/images/traq.png";
 import obj from "../../assets/images/objectif-crea.png";
 import ent from "../../assets/images/entertainment.png";
 import drump from "../../assets/images/drum.webp";
@@ -14,16 +14,16 @@ export function GetProjects() {
     );
   };
 
-  const rails = () => {
-    return (
-      <a href="https://rubyonrails.org" target="_blanck">
-        <i
-          className="devicon-rails-plain-wordmark"
-          style={{ color: "#D4382E" }}
-        ></i>
-      </a>
-    );
-  };
+  // const rails = () => {
+  //   return (
+  //     <a href="https://rubyonrails.org" target="_blanck">
+  //       <i
+  //         className="devicon-rails-plain-wordmark"
+  //         style={{ color: "#D4382E" }}
+  //       ></i>
+  //     </a>
+  //   );
+  // };
 
   const typescript = () => {
     return (
@@ -58,16 +58,16 @@ export function GetProjects() {
     );
   };
 
-  const heroku = () => {
-    return (
-      <a href="https://devcenter.heroku.com" target="_blanck">
-        <i
-          className="devicon-heroku-original-wordmark"
-          style={{ color: "#6837AF" }}
-        ></i>
-      </a>
-    );
-  };
+  // const heroku = () => {
+  //   return (
+  //     <a href="https://devcenter.heroku.com" target="_blanck">
+  //       <i
+  //         className="devicon-heroku-original-wordmark"
+  //         style={{ color: "#6837AF" }}
+  //       ></i>
+  //     </a>
+  //   );
+  // };
 
   const html = () => {
     return (
@@ -163,14 +163,14 @@ export function GetProjects() {
       url: "https://colinbertin.github.io/countries-info",
       git: "https://github.com/ColinBertin/countries-info",
     },
-    {
-      name: "TraQ",
-      description: "Emergency response service...",
-      img: traq,
-      language: [rails(), javascript(), heroku()],
-      url: "https://traq-795.herokuapp.com",
-      git: "https://github.com/ColinBertin/traq",
-    },
+    // {
+    //   name: "TraQ",
+    //   description: "Emergency response service...",
+    //   img: traq,
+    //   language: [rails(), javascript(), heroku()],
+    //   url: "https://traq-795.herokuapp.com",
+    //   git: "https://github.com/ColinBertin/traq",
+    // },
     {
       name: "Weather Forecast",
       description: "Simple Weather app",
