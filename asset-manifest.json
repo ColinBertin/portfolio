@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebf5ef12.css",
+    "main.css": "/static/css/main.c896f995.css",
     "main.js": "/static/js/main.0111168f.js",
     "static/media/weather.webp": "/static/media/weather.c47465c7a6941359fc0e.webp",
     "static/media/objectif-crea.png": "/static/media/objectif-crea.2f7b2b184b8370bf2bbf.png",
@@ -10,11 +10,11 @@
     "static/media/countries.webp": "/static/media/countries.2ac7f89ff4c3f12e715f.webp",
     "static/media/cb.webp": "/static/media/cb.5ab5962b2e2df4608240.webp",
     "index.html": "/index.html",
-    "main.ebf5ef12.css.map": "/static/css/main.ebf5ef12.css.map",
+    "main.c896f995.css.map": "/static/css/main.c896f995.css.map",
     "main.0111168f.js.map": "/static/js/main.0111168f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebf5ef12.css",
+    "static/css/main.c896f995.css",
     "static/js/main.0111168f.js"
   ]
 }
