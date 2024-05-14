@@ -10,20 +10,25 @@
   justify-content: center;
   margin: 0 auto;
   gap: 20px;
-
   a {
     text-decoration: none;
-    font-size: 80px;
+    font-size: 60px;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 568px) {
   .skills-language {
-    max-width: 50%;
-    font-size: 90px;
     a {
-        text-decoration: none;
-        font-size: 90px;
+        font-size: 80px;
       }
   }
+}
+
+@media (min-width: 769px) {
+  .skills-language {
+    max-width: 50%;
+      a {
+        font-size: 100px;
+      }
+    }
 }
