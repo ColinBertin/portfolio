@@ -49,12 +49,13 @@ img {
   }
 
   .card-language {
+    transition: 0.1s;
     font-size: 40px;
-    margin-left: 16px;
+    margin-left: 8px;
   }
 
   .card-language:hover {
-    font-size: 52px;
+    font-size: 44px;
   }
 
   .next-logo {
@@ -114,19 +115,19 @@ img {
     h3 {
       font-size: 22px;
     }
-    
+
     .card-language {
       font-size: 52px;
     }
-    
+
     .card-language:hover {
       font-size: 64px;
     }
-    
+
     .next-logo {
       font-size: 85px;
     }
-    
+
     .next-logo:hover {
       font-size: 100px;
     }
