@@ -1,5 +1,5 @@
-import { BsSun, BsMoon } from "react-icons/bs";
-import React, { useState, useEffect } from "react";
+// import { BsSun, BsMoon } from "react-icons/bs";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../assets/images/cb.webp";
 import "./Navbar.scss";
@@ -9,17 +9,17 @@ const Navbar = ({ toggleTheme, theme }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
-  useEffect(() => {
-    if (nav) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
+  // useEffect(() => {
+  //   if (nav) {
+  //     document.body.style.overflow = 'hidden';
+  //   } else {
+  //     document.body.style.overflow = '';
+  //   }
 
-    return () => {
-        document.body.style.overflow = '';
-    };
-  }, [nav]);
+  //   return () => {
+  //       document.body.style.overflow = '';
+  //   };
+  // }, [nav]);
 
   return (
     <div className={`navbar navbar-${theme}`}>
@@ -46,7 +46,7 @@ const Navbar = ({ toggleTheme, theme }) => {
             Contact
           </Link>
         </li>
-        <li>
+        {/* <li>
           <button
             onClick={toggleTheme}
             className={`theme-button theme-btn-desktop ${theme}`}
@@ -57,7 +57,7 @@ const Navbar = ({ toggleTheme, theme }) => {
               <BsMoon style={{ strokeWidth: "0.2" }} />
             )}
           </button>
-        </li>
+        </li> */}
       </ul>
 
       {/* Hamburger */}
