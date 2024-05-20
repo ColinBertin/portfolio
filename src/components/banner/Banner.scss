@@ -17,7 +17,7 @@
 
 .banner-photo img {
   width: 220px;
-  height: 220px;
+  height: auto;
   border-radius: 50%;
   box-shadow: 3px 3px 23px 3px rgba(65, 63, 63, 0.3);
 }
@@ -68,6 +68,11 @@
   .banner-btn{
     display: inline-flex;
   }
+
+  .banner-photo img {
+    width: 280px;
+    height: auto;
+  }
 }
 
 @media (min-width: 720px) {
@@ -76,8 +81,8 @@
   }
 
   .banner-photo img {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: auto;
   }
 
   .banner-intro {
@@ -87,8 +92,8 @@
 
 @media (min-width: 965px) {
   .banner-photo img {
-    width: 350px;
-    height: 350px;
+    width: 360px;
+    height: auto;
   }
 
   .banner {

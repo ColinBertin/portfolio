@@ -3,7 +3,7 @@ import "./Banner.scss";
 import { Link } from "react-scroll";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
-import me from "../../assets/me.webp";
+import me from "../../assets/profile_crop.png";
 
 const Banner = () => {
   return (
