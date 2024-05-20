@@ -1,4 +1,4 @@
-// import { BsSun, BsMoon } from "react-icons/bs";
+import { BsSun, BsMoon } from "react-icons/bs";
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../assets/images/cb.webp";
@@ -46,10 +46,10 @@ const Navbar = ({ toggleTheme, theme }) => {
             Contact
           </Link>
         </li>
-        {/* <li>
+        <li>
           <button
             onClick={toggleTheme}
-            className={`themeButton theme-btn-desktop ${theme}`}
+            className={`theme-button theme-btn-desktop ${theme}`}
           >
             {theme === "dark" ? (
               <BsSun style={{ strokeWidth: "0.5" }} />
@@ -57,7 +57,7 @@ const Navbar = ({ toggleTheme, theme }) => {
               <BsMoon style={{ strokeWidth: "0.2" }} />
             )}
           </button>
-        </li> */}
+        </li>
       </ul>
 
       {/* Hamburger */}
@@ -101,21 +101,6 @@ const Navbar = ({ toggleTheme, theme }) => {
             Contact
           </Link>
         </li>
-        {/* <li>
-          <button
-            onClick={() => {
-              toggleTheme();
-              handleClick();
-            }}
-            className={`themeButton theme-btn-mobile ${theme}`}
-          >
-            {theme === "dark" ? (
-              <BsSun style={{ strokeWidth: "0.5" }} />
-            ) : (
-              <BsMoon style={{ strokeWidth: "0.2" }} />
-            )}
-          </button>
-        </li> */}
       </ul>
     </div>
   );

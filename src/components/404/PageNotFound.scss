@@ -1,16 +1,16 @@
 .not-found {
-    color: white;
+    color: var(--light-primary);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
     a {
-        color: white;
+        color: var(--light-primary);
         font-weight: bolder;
     }
     a:hover {
-        color: #c04071;
+        color: var(--pink);
     }
 }
 

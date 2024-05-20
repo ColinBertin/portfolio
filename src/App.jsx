@@ -1,5 +1,5 @@
 import "./App.scss";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import About from "./components/about/About";
@@ -18,13 +18,27 @@ function App() {
     setTheme((state) => (state === "light" ? "dark" : "light"));
   };
 
+  useEffect(() => {
+    const body = document.body;
+    if (theme === "dark") {
+      body.style.backgroundColor = "var(--dark-primary)";
+    } else {
+      body.style.backgroundColor = "var(--light-primary)";
+    }
+
+    // Cleanup function to reset styles if needed
+    return () => {
+      body.style.backgroundColor = "";
+    };
+  }, [theme]);
+
   return (
     <div className={`App ${theme}`}>
       <Navbar toggleTheme={toggleTheme} theme={theme} />
       <Banner />
       <main>
         <About />
-        < Skills />
+        < Skills theme={theme} />
         <Projects />
         <Contact theme={theme} />
       </main>

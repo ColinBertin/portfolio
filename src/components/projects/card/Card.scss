@@ -1,7 +1,7 @@
 .card {
   width: 100%;
   max-height: 350px;
-  background-color: #1D1D1D;
+  background-color: var(--dark-secondary);
   position: relative;
   border-radius: 10px;
   box-shadow: 3px 3px 23px 3px rgba(65, 63, 63, 0.3);
@@ -70,7 +70,7 @@ img {
 
 .card-info {
   height: 20%;
-  color: #fff;
+  color: var(--light-primary);
   display: flex;
   justify-content: space-between;
   align-items: center;

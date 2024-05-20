@@ -1,13 +1,13 @@
 import React from "react";
 import "./Skills.scss";
 
-const Skills = () => {
+const Skills = ({ theme }) => {
   const skillsList = [
     {
       name: "express",
       url: "https://expressjs.com",
       class: "devicon-express-original",
-      color: "#F5F5F5",
+      color: theme === "dark" ? "#f5f5f5" : "#101829",
     },
     {
       name: "react",
@@ -19,7 +19,7 @@ const Skills = () => {
       name: "next",
       url: "https://nextjs.org",
       class: "devicon-nextjs-plain-wordmark",
-      color: "#fff",
+      color: theme === "dark" ? "#fff" : "#101829",
     },
     {
       name: "javascript",

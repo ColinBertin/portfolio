@@ -3,7 +3,7 @@ footer {
 }
 
 .footer-container {
-    border-top: 2px solid #A43560;
+    border-top: 2px solid var(--pink);
     display: flex;
     padding: 0 16px;
     justify-content: center;
@@ -15,12 +15,12 @@ footer p {
 }
 
 .contactIcon {
-    fill: #8892b0;
+    fill: var(--light-thirdary);
     transition: 0.3s;
 }
 
 .contactIcon:hover {
-    fill: #A43560;}
+    fill: var(--pink);}
 
 footer ul {
     padding: 0;

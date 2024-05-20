@@ -1,12 +1,17 @@
-.themeButton {
-  font-size: x-large;
+.theme-button {
+  font-size: large;
   display: flex;
   align-items: center;
   gap: 0.5em;
   border: none;
   background: none;
   cursor: pointer;
-  color: #8892b0;
+  color: var(--light-thirdary);
+  transition: 0.3s;
+}
+
+.theme-button:hover {
+  color: var(--pink);
 }
 
 .theme-btn-desktop {
@@ -52,7 +57,7 @@ li {
   margin-top: 8px;
   cursor: pointer;
   .dark {
-    color: #FFF;
+    color: var(--light-primary);
   }
 }
 
@@ -61,7 +66,7 @@ li {
 }
 
 .mobile-hamburger:hover {
-  color: #A43560;
+  color: var(--pink);
 }
 
 .mobile-list {

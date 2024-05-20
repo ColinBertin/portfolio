@@ -11,7 +11,7 @@
 }
 
 .banner-pink {
-  color: #a43560;
+  color: var(--pink);
   margin-bottom: 0;
 }
 
@@ -30,15 +30,15 @@
   padding: 0;
   margin: 0;
   border: none;
-  color: #8892b0;
+  color: var(--light-secondary);
 }
 
 .banner-btn {
   display: none;
   padding: 10px 15px;
-  border: 1px solid #ccd6f6;
+  border: 1px solid var(--light-secondary);
   font-size: 20px;
-  color: #ccd6f6;
+  color: var(--light-secondary);
   cursor: pointer;
   justify-content: space-between;
   transition: 0.3s;
@@ -46,9 +46,9 @@
 }
 
 .banner-btn:hover {
-  color: #ccd6f6;
-  border-color: #a43560;
-  background-color: #a43560;
+  color: var(--light-primary);
+  border-color: var(--pink);
+  background-color: var(--pink);
 }
 
 .banner-btn:hover .btn-arrow {
