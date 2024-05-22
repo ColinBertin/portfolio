@@ -10,7 +10,7 @@
     line-height: 38px;
   }
 
-  .about-contact- {
+  .about-contact-link {
     cursor: pointer;
     border-bottom: 2px solid var(--pink);
 
@@ -18,6 +18,10 @@
         color: var(--pink);
     }
   }
+}
+
+.about-main-text {
+  text-align: justify;
 }
 
 @media (min-width: 720px) {
