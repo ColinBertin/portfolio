@@ -16,15 +16,15 @@ const About = () => {
           skills in building dynamic and responsive websites and applications.
           I'm a strong believer in the power of collaboration and bring a
           positive and results-oriented attitude to every project.<br />
+          Ready to bring your vision to life?{" "}
           <Link
             className="about-contact-link"
             to="contact"
             smooth={true}
             duration={500}
           >
-            Contact
+            Contact me.
           </Link>
-          {" "}me for more info!
         </p>
       </div>
     </section>
