@@ -1,7 +1,7 @@
 // import traq from "../../assets/images/traq.png";
 import obj from "../../assets/images/objectif-crea.png";
 import ent from "../../assets/images/entertainment.png";
-import drump from "../../assets/images/drum.webp";
+// import drump from "../../assets/images/drum.webp";
 import country from "../../assets/images/countries.webp";
 import weather from "../../assets/images/weather.webp";
 
@@ -33,19 +33,19 @@ export function GetProjects() {
     );
   };
 
-  const javascript = () => {
-    return (
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-        target="_blanck"
-      >
-        <i
-          className="devicon-javascript-plain"
-          style={{ color: "#EFD82F" }}
-        ></i>
-      </a>
-    );
-  };
+  // const javascript = () => {
+  //   return (
+  //     <a
+  //       href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  //       target="_blanck"
+  //     >
+  //       <i
+  //         className="devicon-javascript-plain"
+  //         style={{ color: "#EFD82F" }}
+  //       ></i>
+  //     </a>
+  //   );
+  // };
 
   const vercel = () => {
     return (
@@ -69,19 +69,19 @@ export function GetProjects() {
   //   );
   // };
 
-  const html = () => {
-    return (
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-        target="_blanck"
-      >
-        <i
-          className="devicon-html5-plain-wordmark"
-          style={{ color: "#DD4C30" }}
-        ></i>
-      </a>
-    );
-  };
+  // const html = () => {
+  //   return (
+  //     <a
+  //       href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+  //       target="_blanck"
+  //     >
+  //       <i
+  //         className="devicon-html5-plain-wordmark"
+  //         style={{ color: "#DD4C30" }}
+  //       ></i>
+  //     </a>
+  //   );
+  // };
 
   const css = () => {
     return (
@@ -153,7 +153,7 @@ export function GetProjects() {
       img: obj,
       language: [next(), typescript(), vercel()],
       url: "https://www.objectifcrea.be",
-      git: "",
+      git: "https://github.com/ColinBertin/objectif-crea",
     },
     {
       name: "Countries infos",
@@ -179,14 +179,14 @@ export function GetProjects() {
       url: "https://weather-app-kappa-livid.vercel.app",
       git: "https://github.com/ColinBertin/weather-app",
     },
-    {
-      name: "Drum JS",
-      description: "Playing around with event listener and playing sound",
-      img: drump,
-      language: [html(), css(), javascript()],
-      url: "https://colinbertin.github.io/JS-drum-kit",
-      git: "https://github.com/ColinBertin/JS-drum-kit",
-    },
+    // {
+    //   name: "Drum JS",
+    //   description: "Playing around with event listener and playing sound",
+    //   img: drump,
+    //   language: [html(), css(), javascript()],
+    //   url: "https://colinbertin.github.io/JS-drum-kit",
+    //   git: "https://github.com/ColinBertin/JS-drum-kit",
+    // },
   ];
   return projects;
 }
