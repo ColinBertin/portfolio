@@ -108,8 +108,6 @@ export function GetProjects() {
   //   );
   // };
 
-  // console.log(bootstrap)
-
   const react = () => {
     return (
       <a href="https://react.dev" target="_blanck">
