@@ -97,16 +97,18 @@ export function GetProjects() {
     );
   };
 
-  // const bootstrap = () => {
-  //   return (
-  //     <a href="https://getbootstrap.com" target="_blanck">
-  //       <i
-  //         className="devicon-bootstrap-plain-wordmark"
-  //         style={{ color: "#794EF6" }}
-  //       ></i>
-  //     </a>
-  //   );
-  // };
+  const bootstrap = () => {
+    return (
+      <a href="https://getbootstrap.com" target="_blanck">
+        <i
+          className="devicon-bootstrap-plain-wordmark"
+          style={{ color: "#794EF6" }}
+        ></i>
+      </a>
+    );
+  };
+
+  console.log(bootstrap)
 
   const react = () => {
     return (
