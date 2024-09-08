@@ -25,11 +25,11 @@ const Card = ({ img, language, name, link, git }) => {
           <ExternalLink href={link}>
             <TbWorldWww size={35} />
           </ExternalLink>
-          {git && (
+          {git ? (
             <ExternalLink href={git}>
               <BsGithub size={30} />
             </ExternalLink>
-          )}
+          ) : undefined}
         </div>
       </div>
     </div>
