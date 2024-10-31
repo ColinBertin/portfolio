@@ -3,7 +3,7 @@ import obj from "../../assets/images/objectif-crea.png";
 import ent from "../../assets/images/entertainment.png";
 // import drump from "../../assets/images/drum.webp";
 import country from "../../assets/images/countries.webp";
-import weather from "../../assets/images/weather.webp";
+import weather from "../../assets/images/weather-min.png";
 
 export function GetProjects() {
   const express = () => {
