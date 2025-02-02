@@ -89,6 +89,11 @@ const Skills = ({ theme }) => {
       url: "https://www.postgresql.org/",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
     },
+    {
+      name: "figma",
+      url: "https://www.figma.com/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+    },
   ];
 
   return (
