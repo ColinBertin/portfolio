@@ -22,6 +22,11 @@ const Skills = ({ theme }) => {
       color: theme === "dark" ? "#fff" : "#101829",
     },
     {
+      name: "vercel",
+      url: "https://vercel.com/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg"
+    },
+    {
       name: "javascript",
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       class: "devicon-javascript-plain",
@@ -47,9 +52,20 @@ const Skills = ({ theme }) => {
     },
     {
       name: "git",
-      url: "https://git-scm.com/doc",
+      url: "https://git-scm.com",
       class: "devicon-git-plain",
       color: "#f54d27",
+    },
+    {
+      name: "github",
+      url: "https://github.com/",
+      class: "devicon-github-original-wordmark",
+      color: theme === "dark" ? "#fff" : "#101829"
+    },
+    {
+      name: "ruby",
+      url: "https://www.ruby-lang.org/en/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg",
     },
     {
       name: "rails",
@@ -68,13 +84,13 @@ const Skills = ({ theme }) => {
       class: "devicon-django-plain-wordmark",
       color: "#0b4b33",
     },
-    // {
-    //   name: "vercel",
-    //   url: "https://vercel.com/docs",
-    //   class: "devicon-vercel-original-wordmark",
-    //   color: "#fff",
-    // },
+    {
+      name: "postgresql",
+      url: "https://www.postgresql.org/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
+    },
   ];
+
   return (
     <section className="skills">
       <h2>Skills</h2>
