@@ -57,6 +57,17 @@ const Skills = ({ theme }) => {
       class: "devicon-rails-plain-wordmark",
       color: "#D4382E",
     },
+    {
+      name: "python",
+      url: "https://docs.python.org/3/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    },
+    {
+      name: "django",
+      url: "https://docs.djangoproject.com/en/5.1/",
+      class: "devicon-django-plain-wordmark",
+      color: "#0b4b33",
+    },
     // {
     //   name: "vercel",
     //   url: "https://vercel.com/docs",
@@ -74,10 +85,14 @@ const Skills = ({ theme }) => {
           href={skill.url}
           target="_blanck"
         >
+          {skill.class ? 
           <i
             className={skill.class}
             style={{ color: skill.color }}
-          ></i>
+          />
+          : 
+            <img alt={skill.name} src={skill.src} />
+          }
         </a>
       ))}
       </div>

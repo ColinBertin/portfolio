@@ -1,5 +1,9 @@
 .skills {
   margin: 32px 0;
+
+  img {
+    width: 60px;
+  }
 }
 
 .skills-language {
@@ -17,6 +21,12 @@
 }
 
 @media (min-width: 568px) {
+  .skills {
+    img {
+      width: 80px;
+    }
+  }
+
   .skills-language {
     a {
         font-size: 80px;
@@ -25,6 +35,12 @@
 }
 
 @media (min-width: 769px) {
+  .skills {
+    img {
+      width: 100px;
+    }
+  }
+
   .skills-language {
     max-width: 50%;
       a {
