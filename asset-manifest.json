@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae45b90e.css",
-    "main.js": "/static/js/main.fc23e54c.js",
+    "main.css": "/static/css/main.03b99096.css",
+    "main.js": "/static/js/main.167f0c6a.js",
     "static/media/weather-min.png": "/static/media/weather-min.30c13d61d02127cf619a.png",
     "static/media/profile_crop.png": "/static/media/profile_crop.f933c89aba4acdd753b7.png",
     "static/media/objectif-crea.png": "/static/media/objectif-crea.2f7b2b184b8370bf2bbf.png",
@@ -9,11 +9,11 @@
     "static/media/countries.webp": "/static/media/countries.2ac7f89ff4c3f12e715f.webp",
     "static/media/cb.webp": "/static/media/cb.5ab5962b2e2df4608240.webp",
     "index.html": "/index.html",
-    "main.ae45b90e.css.map": "/static/css/main.ae45b90e.css.map",
-    "main.fc23e54c.js.map": "/static/js/main.fc23e54c.js.map"
+    "main.03b99096.css.map": "/static/css/main.03b99096.css.map",
+    "main.167f0c6a.js.map": "/static/js/main.167f0c6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae45b90e.css",
-    "static/js/main.fc23e54c.js"
+    "static/css/main.03b99096.css",
+    "static/js/main.167f0c6a.js"
   ]
 }
