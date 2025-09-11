@@ -1,5 +1,5 @@
 .card {
-  width: 100%;
+  max-width: 100%;
   max-height: 350px;
   background-color: var(--dark-secondary);
   position: relative;
@@ -92,8 +92,7 @@ img {
 
 @media (min-width: 568px) {
   .card {
-    width: 45%;
-
+    width: 80%;
     h3 {
       font-size: 16px;
     }
@@ -110,8 +109,7 @@ img {
 
 @media (min-width: 720px) {
   .card {
-    width: 45%;
-
+    max-width: 350px;
     h3 {
       font-size: 22px;
     }
@@ -131,5 +129,12 @@ img {
     .next-logo:hover {
       font-size: 100px;
     }
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .card {
+    max-width: 500px;
   }
 }
