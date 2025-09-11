@@ -30,6 +30,12 @@ input[type=text], input[type=email], textarea {
   background-color: var(--dark-primary);
 }
 
+.bg-dark {
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+  border: 1px solid var(--light-secondary);
+}
+
 .btn:hover {
   color: var(--light-primary);
   border-color: var(--pink);
