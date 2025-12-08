@@ -176,8 +176,8 @@ export function GetProjects() {
       description: "Get information about country",
       img: country,
       language: [react(), css()],
-      url: "https://colinbertin.github.io/countries-info",
-      git: "https://github.com/ColinBertin/countries-info",
+      url: "https://colinbertin.github.io/countries-flags-infos/",
+      git: "https://github.com/ColinBertin/countries-flags-infos",
     },
     // {
     //   name: "TraQ",
