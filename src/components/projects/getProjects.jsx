@@ -168,7 +168,7 @@ export function GetProjects() {
       description: "Photographer portfolio",
       img: obj,
       language: [next(), typescript(), vercel()],
-      url: "https://www.objectifcrea.be",
+      url: "https://objectif-crea.vercel.app/",
       git: "https://github.com/ColinBertin/objectif-crea",
     },
     {
