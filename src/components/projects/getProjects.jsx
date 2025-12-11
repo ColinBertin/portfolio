@@ -164,7 +164,7 @@ export function GetProjects() {
       git: "https://github.com/ColinBertin/entertainment_v2",
     },
     {
-      name: "ObjectifCréa",
+      name: "My Blog Photographer",
       description: "Photographer portfolio",
       img: obj,
       language: [next(), typescript(), vercel()],
