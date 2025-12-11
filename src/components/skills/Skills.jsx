@@ -22,11 +22,6 @@ const Skills = ({ theme }) => {
       color: theme === "dark" ? "#fff" : "#101829",
     },
     {
-      name: "vercel",
-      url: "https://vercel.com/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg"
-    },
-    {
       name: "javascript",
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       class: "devicon-javascript-plain",
@@ -43,6 +38,12 @@ const Skills = ({ theme }) => {
       url: "https://tailwindcss.com",
       class: "devicon-tailwindcss-plain",
       color: "#63DBFB",
+    },
+    {
+      name: "vercel",
+      url: "https://vercel.com/",
+      class: "devicon-vercel-original-wordmark",
+      color: theme === "dark" ? "#fff" : "#101829",
     },
     {
       name: "heroku",
