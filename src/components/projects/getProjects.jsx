@@ -9,23 +9,26 @@ import weather from "../../assets/images/weather-min.png";
 export function GetProjects() {
   const express = () => {
     return (
-      <a href="https://expressjs.com" target="_blanck">
-        <i className="devicon-express-original" style={{ color: "#F5F5F5" }}></i>
+      <a href="https://expressjs.com" target="blank">
+        <i
+          className="devicon-express-original"
+          style={{ color: "#F5F5F5" }}
+        ></i>
       </a>
     );
   };
 
   const django = () => {
     return (
-      <a href="https://www.djangoproject.com" target="_blanck">
+      <a href="https://www.djangoproject.com" target="blank">
         <i className="devicon-django-plain" style={{ color: "#092E20" }}></i>
       </a>
     );
-  }
+  };
 
   // const rails = () => {
   //   return (
-  //     <a href="https://rubyonrails.org" target="_blanck">
+  //     <a href="https://rubyonrails.org" target="blank">
   //       <i
   //         className="devicon-rails-plain-wordmark"
   //         style={{ color: "#D4382E" }}
@@ -36,8 +39,11 @@ export function GetProjects() {
 
   const typescript = () => {
     return (
-      <a href="https://www.typescriptlang.org" target="_blanck">
-        <i className="devicon-typescript-plain" style={{ color: "#2f73bf" }}></i>
+      <a href="https://www.typescriptlang.org" target="blank">
+        <i
+          className="devicon-typescript-plain"
+          style={{ color: "#2f73bf" }}
+        ></i>
       </a>
     );
   };
@@ -46,7 +52,7 @@ export function GetProjects() {
   //   return (
   //     <a
   //       href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-  //       target="_blanck"
+  //       target="blank"
   //     >
   //       <i
   //         className="devicon-javascript-plain"
@@ -58,18 +64,15 @@ export function GetProjects() {
 
   const vercel = () => {
     return (
-      <a href="https://devcenter.heroku.com" target="_blanck">
-        <i
-          className="devicon-vercel-original"
-          style={{ color: "#fff" }}
-        ></i>
-      </a>
+        <a href="https://devcenter.heroku.com" target="blank">
+          <i className="devicon-vercel-original" style={{ color: "#000" }}></i>
+        </a>
     );
   };
 
   // const heroku = () => {
   //   return (
-  //     <a href="https://devcenter.heroku.com" target="_blanck">
+  //     <a href="https://devcenter.heroku.com" target="blank">
   //       <i
   //         className="devicon-heroku-original-wordmark"
   //         style={{ color: "#6837AF" }}
@@ -82,7 +85,7 @@ export function GetProjects() {
   //   return (
   //     <a
   //       href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-  //       target="_blanck"
+  //       target="blank"
   //     >
   //       <i
   //         className="devicon-html5-plain-wordmark"
@@ -94,10 +97,7 @@ export function GetProjects() {
 
   const css = () => {
     return (
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-        target="_blanck"
-      >
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank">
         <i
           className="devicon-css3-plain-wordmark"
           style={{ color: "#3995CF" }}
@@ -108,7 +108,7 @@ export function GetProjects() {
 
   // const bootstrap = () => {
   //   return (
-  //     <a href="https://getbootstrap.com" target="_blanck">
+  //     <a href="https://getbootstrap.com" target="blank">
   //       <i
   //         className="devicon-bootstrap-plain-wordmark"
   //         style={{ color: "#794EF6" }}
@@ -119,7 +119,7 @@ export function GetProjects() {
 
   const react = () => {
     return (
-      <a href="https://react.dev" target="_blanck">
+      <a href="https://react.dev" target="blank">
         <i className="devicon-react-plain" style={{ color: "#63DBFB" }}></i>
       </a>
     );
@@ -127,7 +127,7 @@ export function GetProjects() {
 
   const next = () => {
     return (
-      <a className="next-logo" href="https://nextjs.org" target="_blanck">
+      <a className="next-logo" href="https://nextjs.org" target="blank">
         <i
           className="devicon-nextjs-plain-wordmark"
           style={{ color: "#FFF" }}
@@ -138,7 +138,7 @@ export function GetProjects() {
 
   const tailwind = () => {
     return (
-      <a href="https://tailwindcss.com" target="_blanck">
+      <a href="https://tailwindcss.com" target="blank">
         <i
           className="devicon-tailwindcss-plain"
           style={{ color: "#63DBFB" }}
@@ -167,7 +167,7 @@ export function GetProjects() {
       name: "My Blog Photographer",
       description: "Photographer portfolio",
       img: obj,
-      language: [next(), typescript(), vercel()],
+      language: [next(), typescript(), vercel(), tailwind()],
       url: "https://objectif-crea.vercel.app/",
       git: "https://github.com/ColinBertin/objectif-crea",
     },
