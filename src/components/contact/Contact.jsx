@@ -9,8 +9,20 @@ const Contact = ({ theme }) => {
         method="POST"
         action="https://getform.io/f/79f566d4-9401-42ec-9f41-92c02f90ad5e"
       >
-        <input className={`bg-${theme}`} type="text" name="name" placeholder="Name" required />
-        <input className={`bg-${theme}`} type="email" name="email" placeholder="Email" required />
+        <input
+          className={`bg-${theme}`}
+          type="text"
+          name="name"
+          placeholder="Name"
+          required
+        />
+        <input
+          className={`bg-${theme}`}
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
         <textarea
           className={`bg-${theme}`}
           name="message"

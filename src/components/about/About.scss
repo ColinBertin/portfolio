@@ -19,7 +19,7 @@
     border-bottom: 2px solid var(--pink);
 
     &:hover {
-        color: var(--pink);
+      color: var(--pink);
     }
   }
 }
@@ -28,16 +28,14 @@
   .about-p-container {
     flex-direction: row;
   }
-   .about-intro {
-     margin: auto;
-   }
+  .about-intro {
+    margin: auto;
+  }
 
-   .about-main-text {
-     max-width: 60%;
-   }
+  .about-main-text {
+    max-width: 60%;
+  }
 }
-
-
 
 .about p {
   margin: 32px 16px;

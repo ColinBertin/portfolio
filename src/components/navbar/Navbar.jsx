@@ -11,13 +11,13 @@ const Navbar = ({ toggleTheme, theme }) => {
 
   useEffect(() => {
     if (nav) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = '';
+      document.body.style.overflow = "";
     }
 
     return () => {
-        document.body.style.overflow = '';
+      document.body.style.overflow = "";
     };
   }, [nav]);
 
@@ -32,7 +32,7 @@ const Navbar = ({ toggleTheme, theme }) => {
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
@@ -80,7 +80,7 @@ const Navbar = ({ toggleTheme, theme }) => {
         </li>
         <li>
           {" "}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>

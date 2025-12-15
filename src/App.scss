@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 :root {
-  --light-primary: #FAFAFA;
+  --light-primary: #fafafa;
   --light-secondary: #a8b0cb;
   --light-thirdary: #697087;
   --dark-primary: #101829;
-  --dark-secondary: #1E1E1E;
-  --pink: #A43560;
+  --dark-secondary: #1e1e1e;
+  --pink: #a43560;
 }
 
 * {
@@ -18,7 +18,7 @@ body {
   background-color: var(--light-primary);
   margin: 0;
   color: var(--light-thirdary);
-  font-family: 'Libre Franklin', serif;
+  font-family: "Libre Franklin", serif;
 }
 
 a {
@@ -39,14 +39,18 @@ main {
   align-items: center;
 }
 
-.projects, .about, .skills, .contact {
+.projects,
+.about,
+.skills,
+.contact {
   width: 100%;
   padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: var(--light-thirdary);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -78,7 +82,6 @@ a:hover {
 }
 
 @media (min-width: 720px) {
-
   h1 {
     font-size: 45px;
   }
@@ -94,13 +97,19 @@ a:hover {
 }
 
 @media (min-width: 965px) {
-  .projects, .about, .skills, .contact{
+  .projects,
+  .about,
+  .skills,
+  .contact {
     padding: 50px 100px;
   }
 }
 
 @media (min-width: 1440px) {
-  .projects, .about, .skills, .contact {
+  .projects,
+  .about,
+  .skills,
+  .contact {
     max-width: 85%;
   }
 }

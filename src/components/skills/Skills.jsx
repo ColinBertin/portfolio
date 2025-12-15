@@ -61,7 +61,7 @@ const Skills = ({ theme }) => {
       name: "github",
       url: "https://github.com/",
       class: "devicon-github-original-wordmark",
-      color: theme === "dark" ? "#fff" : "#101829"
+      color: theme === "dark" ? "#fff" : "#101829",
     },
     {
       name: "ruby",
@@ -101,22 +101,15 @@ const Skills = ({ theme }) => {
     <section className="skills">
       <h2>Skills</h2>
       <div className="skills-language">
-      {skillsList.map((skill) => (
-        <a
-          key={skill.name}
-          href={skill.url}
-          target="_blanck"
-        >
-          {skill.class ? 
-          <i
-            className={skill.class}
-            style={{ color: skill.color }}
-          />
-          : 
-            <img alt={skill.name} src={skill.src} />
-          }
-        </a>
-      ))}
+        {skillsList.map((skill) => (
+          <a key={skill.name} href={skill.url} target="_blanck">
+            {skill.class ? (
+              <i className={skill.class} style={{ color: skill.color }} />
+            ) : (
+              <img alt={skill.name} src={skill.src} />
+            )}
+          </a>
+        ))}
       </div>
     </section>
   );

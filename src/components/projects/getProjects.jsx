@@ -64,9 +64,9 @@ export function GetProjects() {
 
   const vercel = () => {
     return (
-        <a href="https://devcenter.heroku.com" target="blank">
-          <i className="devicon-vercel-original" style={{ color: "#000" }}></i>
-        </a>
+      <a href="https://devcenter.heroku.com" target="blank">
+        <i className="devicon-vercel-original" style={{ color: "#000" }}></i>
+      </a>
     );
   };
 

@@ -1,23 +1,23 @@
 .not-found {
+  color: var(--light-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  a {
     color: var(--light-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    a {
-        color: var(--light-primary);
-        font-weight: bolder;
-    }
-    a:hover {
-        color: var(--pink);
-    }
+    font-weight: bolder;
+  }
+  a:hover {
+    color: var(--pink);
+  }
 }
 
 .not-found-text {
-    h2{
-        border: none;
-        padding: 0;
-        margin: 0;
-    }
+  h2 {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
 }

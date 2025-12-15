@@ -15,7 +15,8 @@ const About = () => {
           crafting user-centric web experiences. Since 2018, I've honed my
           skills in building dynamic and responsive websites and applications.
           I'm a strong believer in the power of collaboration and bring a
-          positive and results-oriented attitude to every project.<br />
+          positive and results-oriented attitude to every project.
+          <br />
           Ready to bring your vision to life?{" "}
           <Link
             className="about-contact-link"
