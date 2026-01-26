@@ -1,7 +1,7 @@
 // import traq from "../../assets/images/traq.png";
 import obj from "../../assets/images/objectif-crea.png";
 import ent from "../../assets/images/entertainment.png";
-import kan from "../../assets/images/kanban.png";
+// import kan from "../../assets/images/kanban.png";
 // import drump from "../../assets/images/drum.webp";
 import country from "../../assets/images/countries.webp";
 import weather from "../../assets/images/weather-min.png";
@@ -18,13 +18,13 @@ export function GetProjects() {
     );
   };
 
-  const django = () => {
-    return (
-      <a href="https://www.djangoproject.com" target="blank">
-        <i className="devicon-django-plain" style={{ color: "#092E20" }}></i>
-      </a>
-    );
-  };
+  // const django = () => {
+  //   return (
+  //     <a href="https://www.djangoproject.com" target="blank">
+  //       <i className="devicon-django-plain" style={{ color: "#092E20" }}></i>
+  //     </a>
+  //   );
+  // };
 
   // const rails = () => {
   //   return (
@@ -148,13 +148,13 @@ export function GetProjects() {
   };
 
   const projects = [
-    {
-      name: "Kanban",
-      description: "Manage you tasks like a pro",
-      img: kan,
-      language: [django(), next(), typescript(), tailwind()],
-      url: "https://kanban-ten-bay.vercel.app/",
-    },
+    // {
+    //   name: "Kanban",
+    //   description: "Manage you tasks like a pro",
+    //   img: kan,
+    //   language: [django(), next(), typescript(), tailwind()],
+    //   url: "https://kanban-ten-bay.vercel.app/",
+    // },
     {
       name: "Entertainment",
       description: "Create your own watch list",
